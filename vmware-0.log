@@ -1,0 +1,1903 @@
+2025-03-18T08:18:08.130Z In(05) vmx Log for VMware Workstation pid=11236 version=17.5.2 build=build-23775571 option=Release
+2025-03-18T08:18:08.130Z In(05) vmx The host is x86_64.
+2025-03-18T08:18:08.130Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2025-03-18T08:18:08.130Z In(05) vmx Host is Windows 11 Pro, 64-bit (Build 22621.4317)
+2025-03-18T08:18:08.130Z In(05) vmx Host offset from UTC is -05:00.
+2025-03-18T08:18:08.099Z In(05) vmx VTHREAD 5480 "vmx"
+2025-03-18T08:18:08.099Z In(05) vmx LOCALE windows-1252 -> NULL User=409 System=409
+2025-03-18T08:18:08.099Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2025-03-18T08:18:08.115Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\ADMIN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-03-18T08:18:08.115Z In(05) vmx Msg_Reset:
+2025-03-18T08:18:08.115Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ADMIN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-03-18T08:18:08.115Z In(05) vmx ----------------------------------------
+2025-03-18T08:18:08.115Z In(05) vmx ConfigDB: Failed to load C:\Users\ADMIN\AppData\Roaming\VMware\config.ini
+2025-03-18T08:18:08.115Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\smester 6\Windows 8.x x64 (2).vmpl", ...) failed, error: 2
+2025-03-18T08:18:08.115Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2025-03-18T08:18:08.115Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\ADMIN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-03-18T08:18:08.115Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ADMIN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-03-18T08:18:08.115Z In(05) vmx PREF Optional preferences file not found at C:\Users\ADMIN\AppData\Roaming\VMware\config.ini. Using default values.
+2025-03-18T08:18:08.115Z In(05) vmx SSL Error: error:80000002:system library::No such file or directory
+2025-03-18T08:18:08.115Z In(05) vmx SSL Error: error:10000080:BIO routines::no such file
+2025-03-18T08:18:08.115Z In(05) vmx SSL Error: error:07000072:configuration file routines::no such file
+2025-03-18T08:18:08.115Z Wa(03) vmx SSLConfigLoad: Failed to load OpenSSL config file.
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: OpenSSL using default provider
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: Client usage
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol list tls1.2
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol min 0x303 max 0x303
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: Server usage
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol list tls1.2
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol min 0x303 max 0x303
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2025-03-18T08:18:08.115Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2025-03-18T08:18:08.130Z In(05) vmx Hostname=DESKTOP-SM0TK46
+2025-03-18T08:18:08.130Z In(05) vmx IP=fe80::ee0:a470:550a:fe0%10
+2025-03-18T08:18:08.130Z In(05) vmx IP=fe80::1427:8acd:5e95:3d56%14
+2025-03-18T08:18:08.130Z In(05) vmx IP=192.168.204.1
+2025-03-18T08:18:08.130Z In(05) vmx IP=192.168.153.1
+2025-03-18T08:18:08.162Z In(05) vmx System uptime 174926677 us
+2025-03-18T08:18:08.162Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=17.5.2;buildnumber=23775571;licensename=VMware Workstation;licenseversion=17.0;" "-@" "pipe=\\.\pipe\vmx433e7a18d2c3a67c;msgs=ui" "D:\smester 6\Windows 8.x x64 (2).vmx"
+2025-03-18T08:18:08.162Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2025-03-18T08:18:08.177Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 800
+2025-03-18T08:18:08.177Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 792
+2025-03-18T08:18:08.177Z In(05) vmx VigorTransport listening on fd 876
+2025-03-18T08:18:08.177Z In(05) vmx Vigor_Init 1
+2025-03-18T08:18:08.177Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmx433e7a18d2c3a67c' with user '(null)'
+2025-03-18T08:18:08.177Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2025-03-18T08:18:08.193Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:488]: VMAutomation: Initializing VMAutomation.
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:740]: VMAutomationOpenListenerSocket() listening
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2025-03-18T08:18:08.193Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2025-03-18T08:18:08.193Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2025-03-18T08:18:08.208Z In(05) vmx IOPL_VBSRunning: VBS is set to 0
+2025-03-18T08:18:08.224Z In(05) vmx IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2025-03-18T08:18:08.224Z In(05) vmx FeatureCompat: No EVC masks.
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID vendor: GenuineIntel
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID family: 0x6 model: 0x8e stepping: 0xa
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID codename: Coffee Lake-U
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID name: Intel(R) Core(TM) i3-8130U CPU @ 2.20GHz
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000000, 0: 0x00000016 0x756e6547 0x6c65746e 0x49656e69
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000001, 0: 0x000806ea 0x00100800 0x7ffafbbf 0xbfebfbff
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c30000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000004, 2: 0x1c004143 0x00c0003f 0x000003ff 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000004, 3: 0x1c03c163 0x03c0003f 0x00000fff 0x00000006
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x11142120
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000006, 0: 0x000027f7 0x00000002 0x00000009 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000007, 0: 0x00000000 0x029c67af 0x00000000 0xbc002e00
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300404 0x00000000 0x00000000 0x00000603
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000004 0x00000004 0x00000201 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 0: 0x0000001f 0x00000440 0x00000440 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x00000440 0x00000100 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000040 0x000003c0 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000040 0x00000400 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000d, 8: 0x00000080 0x00000000 0x00000001 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000000f 0x00000007 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f3fff 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x000000b8 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 00000016, 0: 0x00000898 0x00000d48 0x00000064 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000003, 0: 0x33692029 0x3331382d 0x43205530 0x40205550
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000004, 0: 0x322e3220 0x7a484730 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2025-03-18T08:18:08.224Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2025-03-18T08:18:08.224Z In(05) vmx CPUID differences from hostCPUID.
+2025-03-18T08:18:08.224Z In(05) vmx Physical APIC IDs: 0-3
+2025-03-18T08:18:08.224Z In(05) vmx Physical X2APIC IDs: 0-3
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR       0x3a =                0x5
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x480 =   0xda040000000004
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x481 =       0x7f00000016
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x482 = 0xfff9fffe0401e172
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x483 =  0x1ffffff00036dff
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x484 =    0x3ffff000011ff
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x485 =         0x7004c1e7
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x486 =         0x80000021
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x487 =         0xffffffff
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x488 =             0x2000
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x489 =           0x3727ff
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48a =               0x2e
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48b =   0x5fbcff00000000
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48c =      0xf0106734141
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48d =       0x7f00000016
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48e = 0xfff9fffe04006172
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x48f =  0x1ffffff00036dfb
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x490 =    0x3ffff000011fb
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x491 =                0x1
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x492 =                  0
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR       0xce =         0x80000000
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x10a =          0x2000c04
+2025-03-18T08:18:08.224Z In(05) vmx Common: MSR      0x122 =                  0
+2025-03-18T08:18:08.224Z In(05) vmx VMMon_GetkHzEstimate: Calculated 2208004 kHz
+2025-03-18T08:18:08.224Z In(05) vmx TSC Hz estimates: vmmon 2208004000, remembered 0, osReported 2208000000. Using 2208004000 Hz.
+2025-03-18T08:18:08.224Z In(05) vmx TSC first measured delta 167
+2025-03-18T08:18:08.224Z In(05) vmx TSC min delta 166
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2208004000Hz
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: RefClockToPTSC ((x * 3704416004) >> 24) + -386724898169
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: tscOffset -413253722106
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: using TSC
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2025-03-18T08:18:08.224Z In(05) vmx PTSC: current PTSC=129772
+2025-03-18T08:18:08.240Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 1124
+2025-03-18T08:18:08.271Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2025-03-18T08:18:08.271Z In(05) vmx changing directory to D:\smester 6\.
+2025-03-18T08:18:08.271Z In(05) vmx Config file: D:\smester 6\Windows 8.x x64 (2).vmx
+2025-03-18T08:18:08.271Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1875, success=1 additionalError=0
+2025-03-18T08:18:08.271Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2025-03-18T08:18:08.271Z In(05) vmx LogRotation: Rotating to a new log file (keepOld 3) took 0.000702 seconds.
+2025-03-18T08:18:08.287Z No(00) vmx LogVMXReplace: Successful switching from temporary to permanent log file took 0.013731 seconds.
+2025-03-18T08:18:08.302Z No(00) vmx ConfigDB: Setting floppy0.clientDevice = "FALSE"
+2025-03-18T08:18:08.302Z Wa(03) vmx PowerOn
+2025-03-18T08:18:08.302Z In(05) vmx VMX_PowerOn: VMX build 23775571, UI build 23775571
+2025-03-18T08:18:08.302Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000000f
+2025-03-18T08:18:08.324Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Successfully created stats file 'Windows 8.x x64 (2).scoreboard'
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Update Product Information: VMware Workstation	17.5.2	build-23775571	Release  TotalBlockSize: 56
+2025-03-18T08:18:08.324Z In(05) vmx HOST Windows version 10.0, build 22621, platform 2, ""
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2025-03-18T08:18:08.324Z In(05) vmx DICT          printers.enabled = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- NON PERSISTENT (null)
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- USER PREFERENCES C:\Users\ADMIN\AppData\Roaming\VMware\preferences.ini
+2025-03-18T08:18:08.324Z In(05) vmx DICT   pref.lastUpdateCheckSec = "1742280438"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         vmWizard.guestKey = "windows8-64"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             vmWizard.mode = "custom"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.installMediaType = "iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU.count = "6"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU0.location = "D:\smester 6\en_windows_8.1_enterprise_with_update_x64_dvd_6054382.iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window.count = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab.count = "2"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.sidebar = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.sidebar.width = "200"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.statusBar = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tabs = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.placement.left = "128"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.placement.top = "128"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.placement.right = "652"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.placement.bottom = "517"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.maximized = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2025-03-18T08:18:08.324Z In(05) vmx DICT       pref.license.maxNum = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     pref.license0.version = "17.0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.license0.registrationViewed = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.license0.lastEvalReminder = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU1.location = "D:\window 10\Windows Server 2022 x64.iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU2.location = "D:\window 10\Win10_22H2_English_x64v1.iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU3.location = "D:\window 10\Windows.iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU4.location = "C:\Users\ADMIN\Desktop\New folder (2)\9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             hints.hideAll = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.snapshotManager.left = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pref.snapshotManager.top = "29"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.snapshotManager.right = "797"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.snapshotManager.bottom = "671"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab0.dest = ""
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab0.file = ""
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab0.type = "home"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.updatesVersionIgnore.numItems = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.updatesVersionIgnore0.key = <not printed>
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.updatesVersionIgnore0.value = "b69c827e-085d-4b97-a783-0e250f9bb474"
+2025-03-18T08:18:08.324Z In(05) vmx DICT hint.vmui.easyInstallNoSerial = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  hint.vmui.showNewUSBDevs = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmWizard.isoLocationMRU5.location = "D:\smester 5\9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab1.dest = ""
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab1.file = "D:\smester 6\Windows 8.x x64 (2).vmx"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab1.type = "vm"
+2025-03-18T08:18:08.324Z In(05) vmx DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- USER DEFAULTS C:\Users\ADMIN\AppData\Roaming\VMware\config.ini
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2025-03-18T08:18:08.324Z In(05) vmx DICT         authd.client.port = "902"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2025-03-18T08:18:08.324Z In(05) vmx DICT         authd.client.port = "902"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- NONPERSISTENT
+2025-03-18T08:18:08.324Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             gui.available = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- COMMAND LINE
+2025-03-18T08:18:08.324Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             gui.available = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- RECORDING
+2025-03-18T08:18:08.324Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             gui.available = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- CONFIGURATION D:\smester 6\Windows 8.x x64 (2).vmx 
+2025-03-18T08:18:08.324Z In(05) vmx DICT            config.version = "8"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         virtualHW.version = "21"
+2025-03-18T08:18:08.324Z In(05) vmx DICT              mks.enable3d = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        pciBridge0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        pciBridge4.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     pciBridge4.virtualDev = "pcieRootPort"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      pciBridge4.functions = "8"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        pciBridge5.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     pciBridge5.virtualDev = "pcieRootPort"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      pciBridge5.functions = "8"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        pciBridge6.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     pciBridge6.virtualDev = "pcieRootPort"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      pciBridge6.functions = "8"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        pciBridge7.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     pciBridge7.virtualDev = "pcieRootPort"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      pciBridge7.functions = "8"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             vmci0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             hpet0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                     nvram = "Windows 8.x x64 (2).nvram"
+2025-03-18T08:18:08.324Z In(05) vmx DICT virtualHW.productCompatibility = "hosted"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        powerType.powerOff = "soft"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         powerType.powerOn = "soft"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         powerType.suspend = "soft"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           powerType.reset = "soft"
+2025-03-18T08:18:08.324Z In(05) vmx DICT               displayName = "Windows 8.x x64 (2)"
+2025-03-18T08:18:08.324Z In(05) vmx DICT usb.vbluetooth.startConnected = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           sensor.location = "pass-through"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                   guestOS = "windows8-64"
+2025-03-18T08:18:08.324Z In(05) vmx DICT            tools.syncTime = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          sound.autoDetect = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          sound.virtualDev = "hdaudio"
+2025-03-18T08:18:08.324Z In(05) vmx DICT            sound.fileName = "-1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             sound.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                  numvcpus = "4"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      cpuid.coresPerSocket = "2"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                   memsize = "4096"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                mem.hotadd = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          scsi0.virtualDev = "lsisas1068"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             scsi0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             sata0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          scsi0:0.fileName = "Windows 8.x x64 (2).vmdk"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        sata0:1.deviceType = "cdrom-image"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          sata0:1.fileName = "D:\smester 6\en_windows_8.1_enterprise_with_update_x64_dvd_6054382.iso"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           sata0:1.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT               usb.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT              ehci.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          usb_xhci.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     svga.graphicsMemoryKB = "8388608"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     ethernet0.addressType = "generated"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      ethernet0.virtualDev = "e1000e"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          floppy0.fileType = "file"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          floppy0.fileName = "autoinst.flp"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         ethernet0.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        extendedConfigFile = "Windows 8.x x64 (2).vmxf"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      floppy0.clientDevice = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         vmxstats.filename = "Windows 8.x x64 (2).scoreboard"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      numa.autosize.cookie = "40022"
+2025-03-18T08:18:08.324Z In(05) vmx DICT numa.autosize.vcpu.maxPerVirtualNode = "4"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                 uuid.bios = "56 4d 42 9e ce 93 88 b3-eb 2d 01 41 c1 9a dd 6b"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             uuid.location = "56 4d 42 9e ce 93 88 b3-eb 2d 01 41 c1 9a dd 6b"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                  vm.genid = "-5172941702463220440"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                 vm.genidX = "-4576685412828305087"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pciBridge0.pciSlotNumber = "17"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pciBridge4.pciSlotNumber = "21"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pciBridge5.pciSlotNumber = "22"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pciBridge6.pciSlotNumber = "23"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  pciBridge7.pciSlotNumber = "24"
+2025-03-18T08:18:08.324Z In(05) vmx DICT       scsi0.pciSlotNumber = "160"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         usb.pciSlotNumber = "32"
+2025-03-18T08:18:08.324Z In(05) vmx DICT   ethernet0.pciSlotNumber = "192"
+2025-03-18T08:18:08.324Z In(05) vmx DICT       sound.pciSlotNumber = "33"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        ehci.pciSlotNumber = "34"
+2025-03-18T08:18:08.324Z In(05) vmx DICT    usb_xhci.pciSlotNumber = "224"
+2025-03-18T08:18:08.324Z In(05) vmx DICT       sata0.pciSlotNumber = "35"
+2025-03-18T08:18:08.324Z In(05) vmx DICT              scsi0:0.redo = ""
+2025-03-18T08:18:08.324Z In(05) vmx DICT             scsi0.sasWWID = "50 05 05 6e ce 93 88 b0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             svga.vramSize = "268435456"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  vmotion.checkpointFBSize = "134217728"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.checkpointSVGAPrimarySize = "268435456"
+2025-03-18T08:18:08.324Z In(05) vmx DICT   vmotion.svga.mobMaxSize = "1073741824"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.graphicsMemoryKB = "8388608"
+2025-03-18T08:18:08.324Z In(05) vmx DICT   vmotion.svga.supports3D = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.baseCapsLevel = "9"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.maxPointSize = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.maxTextureSize = "16384"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.maxVolumeExtent = "2048"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.maxTextureAnisotropy = "16"
+2025-03-18T08:18:08.324Z In(05) vmx DICT  vmotion.svga.lineStipple = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.dxMaxConstantBuffers = "15"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.dxProvokingVertex = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         vmotion.svga.sm41 = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.multisample2x = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.multisample4x = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.msFullQuality = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     vmotion.svga.logicOps = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         vmotion.svga.bc67 = "9"
+2025-03-18T08:18:08.324Z In(05) vmx DICT          vmotion.svga.sm5 = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.multisample8x = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.logicBlendOps = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT vmotion.svga.maxForcedSampleCount = "16"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         vmotion.svga.gl43 = "1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT ethernet0.generatedAddress = "00:0C:29:9A:DD:6B"
+2025-03-18T08:18:08.324Z In(05) vmx DICT ethernet0.generatedAddressOffset = "0"
+2025-03-18T08:18:08.324Z In(05) vmx DICT                  vmci0.id = "-1046815381"
+2025-03-18T08:18:08.324Z In(05) vmx DICT    monitor.phys_bits_used = "45"
+2025-03-18T08:18:08.324Z In(05) vmx DICT             cleanShutdown = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT              softPowerOff = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        checkpoint.vmState = "Windows 8.x x64 (2)-636ad098.vmss"
+2025-03-18T08:18:08.324Z In(05) vmx DICT      tools.upgrade.policy = "useGlobal"
+2025-03-18T08:18:08.324Z In(05) vmx DICT        usb_xhci:4.present = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT     usb_xhci:4.deviceType = "hid"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           usb_xhci:4.port = "4"
+2025-03-18T08:18:08.324Z In(05) vmx DICT         usb_xhci:4.parent = "-1"
+2025-03-18T08:18:08.324Z In(05) vmx DICT ethernet0.linkStatePropagation.enable = "TRUE"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- USER DEFAULTS C:\Users\ADMIN\AppData\Roaming\VMware\config.ini 
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2025-03-18T08:18:08.324Z In(05) vmx DICT         authd.client.port = "902"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2025-03-18T08:18:08.324Z In(05) vmx DICT         authd.client.port = "902"
+2025-03-18T08:18:08.324Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2025-03-18T08:18:08.324Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "21073"
+2025-03-18T08:18:08.324Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2025-03-18T08:18:08.324Z In(05) vmx DICT          printers.enabled = "FALSE"
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 1 stats: vmx.diskLibDataVmdkOpenTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 2 stats: vmx.diskLibDataVmdkOpenTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 3 stats: vmx.diskLibDataVmdkGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 4 stats: vmx.diskLibDataVmdkGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 5 stats: vmx.diskLibDigestVmdkOpenTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 6 stats: vmx.diskLibDigestVmdkOpenTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 7 stats: vmx.diskLibDigestVmdkGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 8 stats: vmx.diskLibDigestVmdkGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 9 stats: vmx.diskLibDigestFileDataGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 10 stats: vmx.diskLibDigestFileDataGrowTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 11 stats: vmx.digestLibOpenIntTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 12 stats: vmx.digestLibOpenIntTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 13 stats: vmx.diskLibDataVmdkCloseTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 14 stats: vmx.diskLibDataVmdkCloseTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 15 stats: vmx.diskLibDigestVmdkCloseTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 16 stats: vmx.diskLibDigestVmdkCloseTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 17 stats: vmx.diskLibVmdkCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 18 stats: vmx.diskLibVmdkCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 19 stats: vmx.diskLibChildVmdkCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 20 stats: vmx.diskLibChildVmdkCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 21 stats: vmx.snapshotCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 22 stats: vmx.snapshotCreateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 23 stats: vmx.snapshotCreateQuiescedTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 24 stats: vmx.snapshotCreateQuiescedTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 25 stats: vmx.snapshotCreateMemoryTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 26 stats: vmx.snapshotCreateMemoryTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 27 stats: vmx.snapshotDeleteTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 28 stats: vmx.snapshotDeleteTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 29 stats: vmx.snapshotConsolidateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 30 stats: vmx.snapshotConsolidateTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 31 stats: vmx.checkpointStunTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 32 stats: vmx.checkpointStunTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 33 stats: vmx.setPolicyTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 34 stats: vmx.setPolicyTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 35 stats: vmx.filtlibApplyDiskConfigTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 36 stats: vmx.filtlibApplyDiskConfigTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 37 stats: vmx.diskLibGetInfoTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 38 stats: vmx.diskLibGetInfoTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 39 stats: vmx.diskLibDigestGetInfoTime
+2025-03-18T08:18:08.324Z In(05) vmx VMXSTATS: Registering 40 stats: vmx.diskLibDigestGetInfoTime
+2025-03-18T08:18:08.324Z In(05) vmx Powering on guestOS 'windows8-64' using the configuration for 'windows8-64'.
+2025-03-18T08:18:08.324Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-03-18T08:18:08.324Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-03-18T08:18:08.324Z In(05) vmx ToolsISO: Updated cached value for imageName to 'windows.iso'.
+2025-03-18T08:18:08.324Z In(05) vmx ToolsISO: Selected Tools ISO 'windows.iso' for 'windows8-64' guest.
+2025-03-18T08:18:08.334Z In(05) vmx DUMPER: Restoring checkpoint version 8.
+2025-03-18T08:18:08.334Z In(05) vmx Checkpointed in VMware Workstation, 17.5.2, build-23775571, Windows Host
+2025-03-18T08:18:08.334Z In(05) vmx Resuming virtual machine from D:\smester 6\Windows 8.x x64 (2)-636ad098.vmss with 4096 MB of memory.
+2025-03-18T08:18:08.334Z In(05) vmx Vix: [mainDispatch.c:4212]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2025-03-18T08:18:08.334Z In(05) vmx DEVSWAP: GuestOS does not require LSI adapter swap.
+2025-03-18T08:18:08.334Z In(05) vmx Monitor Mode: CPL0
+2025-03-18T08:18:08.349Z In(05) vmx OvhdMem_PowerOn: initial admission: paged  4142968 nonpaged    37581 anonymous     9880
+2025-03-18T08:18:08.349Z In(05) vmx VMMEM: Initial Reservation: 16368MB (MainMem=4096MB)
+2025-03-18T08:18:08.349Z In(05) vmx numa: Resuming from checkpoint using VPD = 4
+2025-03-18T08:18:08.349Z In(05) vmx llc: maximum vcpus per LLC: 1
+2025-03-18T08:18:08.349Z In(05) vmx llc: vLLC size: 2
+2025-03-18T08:18:08.349Z In(05) vmx MemSched_PowerOn: balloon minGuestSize 419430 (80% of min required size 524288)
+2025-03-18T08:18:08.349Z In(05) vmx MemSched: reserved mem (in MB) min 128 max 6290 recommended 6290
+2025-03-18T08:18:08.349Z In(05) vmx MemSched: pg 4142968 np 37581 anon 9880 mem 1048576
+2025-03-18T08:18:08.537Z In(05) vmx MemSched: numvm 1 locked pages: num 0 max 1602048
+2025-03-18T08:18:08.537Z In(05) vmx MemSched: locked Page Limit: host 1835856 config 1610240
+2025-03-18T08:18:08.537Z In(05) vmx MemSched: minmempct 50 minalloc 0 admitted 1
+2025-03-18T08:18:08.537Z In(05) PowerNotifyThread VTHREAD 2940 "PowerNotifyThread"
+2025-03-18T08:18:08.537Z In(05) PowerNotifyThread PowerNotify thread is alive.
+2025-03-18T08:18:08.537Z In(05) vmx VMXSTATS: Registering 41 stats: vmx.logBytesDropped
+2025-03-18T08:18:08.537Z In(05) vmx VMXSTATS: Registering 42 stats: vmx.logMsgsDropped
+2025-03-18T08:18:08.537Z In(05) vmx VMXSTATS: Registering 43 stats: vmx.logBytesLogged
+2025-03-18T08:18:08.537Z In(05) vmx VMXSTATS: Registering 44 stats: vmx.logWriteMinMaxTime
+2025-03-18T08:18:08.537Z In(05) vmx VMXSTATS: Registering 45 stats: vmx.logWriteAvgTime
+2025-03-18T08:18:08.537Z In(05) vmx LICENSE: Running unlicensed VMX (VMware Workstation)
+2025-03-18T08:18:08.537Z In(05) vthread-2976 VTHREAD 2976 "vthread-2976"
+2025-03-18T08:18:08.537Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\smester 6\Windows 8.x x64 (2).vmpl", ...) failed, error: 2
+2025-03-18T08:18:08.537Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2025-03-18T08:18:08.537Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\smester 6\Windows 8.x x64 (2).vmpl", ...) failed, error: 2
+2025-03-18T08:18:08.537Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2025-03-18T08:18:08.537Z In(05) vmx Host PA size: 39 bits. Guest PA size: 45 bits.
+2025-03-18T08:18:08.537Z In(05) vmx ToolsISO: Refreshing imageName for 'windows8-64' (refreshCount=1, lastCount=1).
+2025-03-18T08:18:08.537Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-03-18T08:18:08.537Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-03-18T08:18:08.537Z In(05) vmx ToolsISO: Updated cached value for imageName to 'windows.iso'.
+2025-03-18T08:18:08.537Z In(05) vmx ToolsISO: Selected Tools ISO 'windows.iso' for 'windows8-64' guest.
+2025-03-18T08:18:08.537Z In(05) deviceThread VTHREAD 2968 "deviceThread"
+2025-03-18T08:18:08.537Z In(05) deviceThread Device thread is alive
+2025-03-18T08:18:08.537Z In(05) vmx Host VT-x Capabilities:
+2025-03-18T08:18:08.537Z In(05) vmx Basic VMX Information (0x00da040000000004)
+2025-03-18T08:18:08.537Z In(05) vmx   VMCS revision ID                           4
+2025-03-18T08:18:08.537Z In(05) vmx   VMCS region length                      1024
+2025-03-18T08:18:08.537Z In(05) vmx   VMX physical-address width           natural
+2025-03-18T08:18:08.537Z In(05) vmx   SMM dual-monitor mode                    yes
+2025-03-18T08:18:08.537Z In(05) vmx   VMCS memory type                          WB
+2025-03-18T08:18:08.537Z In(05) vmx   Advanced INS/OUTS info                   yes
+2025-03-18T08:18:08.537Z In(05) vmx   True VMX MSRs                            yes
+2025-03-18T08:18:08.537Z In(05) vmx   Exception Injection ignores error code    no
+2025-03-18T08:18:08.537Z In(05) vmx True Pin-Based VM-Execution Controls (0x0000007f00000016)
+2025-03-18T08:18:08.537Z In(05) vmx   External-interrupt exiting               {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   NMI exiting                              {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Virtual NMIs                             {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Activate VMX-preemption timer            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Process posted interrupts                { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx True Primary Processor-Based VM-Execution Controls (0xfff9fffe04006172)
+2025-03-18T08:18:08.537Z In(05) vmx   Interrupt-window exiting                 {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Use TSC offsetting                       {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   HLT exiting                              {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   INVLPG exiting                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   MWAIT exiting                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   RDPMC exiting                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   RDTSC exiting                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   CR3-load exiting                         {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   CR3-store exiting                        {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Activate tertiary controls               { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   CR8-load exiting                         {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   CR8-store exiting                        {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Use TPR shadow                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   NMI-window exiting                       {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   MOV-DR exiting                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Unconditional I/O exiting                {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Use I/O bitmaps                          {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Monitor trap flag                        {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Use MSR bitmaps                          {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   MONITOR exiting                          {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   PAUSE exiting                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Activate secondary controls              {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx Secondary Processor-Based VM-Execution Controls (0x005fbcff00000000)
+2025-03-18T08:18:08.537Z In(05) vmx   Virtualize APIC accesses                 {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable EPT                               {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Descriptor-table exiting                 {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable RDTSCP                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Virtualize x2APIC mode                   {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable VPID                              {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   WBINVD exiting                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Unrestricted guest                       {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   APIC-register virtualization             { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Virtual-interrupt delivery               { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   PAUSE-loop exiting                       {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   RDRAND exiting                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable INVPCID                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable VM Functions                      {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Use VMCS shadowing                       { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   ENCLS exiting                            {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   RDSEED exiting                           {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable PML                               {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   EPT-violation #VE                        {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Conceal VMX from PT                      {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Enable XSAVES/XRSTORS                    {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   PASID translation                        { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Mode-based execute control for EPT       {0,1}
+2025-03-18T08:18:08.537Z In(05) vmx   Sub-page write permissions for EPT       { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   PT uses guest physical addresses         { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Use TSC scaling                          { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Enable UMWAIT and TPAUSE                 { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Enable ENCLV in VMX non-root mode        { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Enable EPC Virtualization Extensions     { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Bus lock exiting                         { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx   Notification VM exits                    { 0 }
+2025-03-18T08:18:08.537Z In(05) vmx Tertiary Processor-Based VM-Execution Controls (0x0000000000000000)
+2025-03-18T08:18:08.537Z In(05) vmx   LOADIWKEY exiting                          no
+2025-03-18T08:18:08.537Z In(05) vmx   Enable HLAT                                no
+2025-03-18T08:18:08.537Z In(05) vmx   Enable Paging-Write                        no
+2025-03-18T08:18:08.537Z In(05) vmx   Enable Guest Paging Verification           no
+2025-03-18T08:18:08.537Z In(05) vmx   Enable IPI Virtualization                  no
+2025-03-18T08:18:08.553Z In(05) vmx   Enable Virtual MSR_SPEC_CTRL               no
+2025-03-18T08:18:08.553Z In(05) vmx True VM-Exit Controls (0x01ffffff00036dfb)
+2025-03-18T08:18:08.553Z In(05) vmx   Save debug controls                      {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Host address-space size                  {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Acknowledge interrupt on exit            {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Save IA32_PAT                            {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_PAT                            {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Save IA32_EFER                           {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_EFER                           {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Save VMX-preemption timer                {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Clear IA32_BNDCFGS                       {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Conceal VMX from processor trace         {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Clear IA32_RTIT MSR                      { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Clear IA32_LBR_CTL MSR                   { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Clear user-interrupt notification vector { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load CET state                           { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load PKRS                                { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx True VM-Entry Controls (0x0003ffff000011fb)
+2025-03-18T08:18:08.553Z In(05) vmx   Load debug controls                      {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   IA-32e mode guest                        {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Entry to SMM                             {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Deactivate dual-monitor mode             {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_PAT                            {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_EFER                           {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_BNDCFGS                        {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Conceal VMX from processor trace         {0,1}
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_RTIT MSR                       { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load user-interrupt notification vector  { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load CET state                           { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load IA32_LBR_CTL MSR                    { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx   Load PKRS                                { 0 }
+2025-03-18T08:18:08.553Z In(05) vmx VPID and EPT Capabilities (0x00000f0106734141)
+2025-03-18T08:18:08.553Z In(05) vmx   R=0/W=0/X=1                               yes
+2025-03-18T08:18:08.553Z In(05) vmx   Page-walk length 3                        yes
+2025-03-18T08:18:08.553Z In(05) vmx   EPT memory type WB                        yes
+2025-03-18T08:18:08.553Z In(05) vmx   2MB super-page                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   1GB super-page                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   INVEPT support                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   Access & Dirty Bits                       yes
+2025-03-18T08:18:08.553Z In(05) vmx   Advanced VM exit information for EPT violations   yes
+2025-03-18T08:18:08.553Z In(05) vmx   Supervisor shadow-stack control            no
+2025-03-18T08:18:08.553Z In(05) vmx   Type 1 INVEPT                             yes
+2025-03-18T08:18:08.553Z In(05) vmx   Type 2 INVEPT                             yes
+2025-03-18T08:18:08.553Z In(05) vmx   INVVPID support                           yes
+2025-03-18T08:18:08.553Z In(05) vmx   Type 0 INVVPID                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   Type 1 INVVPID                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   Type 2 INVVPID                            yes
+2025-03-18T08:18:08.553Z In(05) vmx   Type 3 INVVPID                            yes
+2025-03-18T08:18:08.553Z In(05) vmx Miscellaneous VMX Data (0x000000007004c1e7)
+2025-03-18T08:18:08.553Z In(05) vmx   TSC to preemption timer ratio      7
+2025-03-18T08:18:08.553Z In(05) vmx   VM-Exit saves EFER.LMA           yes
+2025-03-18T08:18:08.553Z In(05) vmx   Activity State HLT               yes
+2025-03-18T08:18:08.553Z In(05) vmx   Activity State shutdown          yes
+2025-03-18T08:18:08.553Z In(05) vmx   Activity State wait-for-SIPI     yes
+2025-03-18T08:18:08.553Z In(05) vmx   Processor trace in VMX           yes
+2025-03-18T08:18:08.553Z In(05) vmx   RDMSR SMBASE MSR in SMM          yes
+2025-03-18T08:18:08.553Z In(05) vmx   CR3 targets supported              4
+2025-03-18T08:18:08.553Z In(05) vmx   Maximum MSR list size            512
+2025-03-18T08:18:08.553Z In(05) vmx   VMXOFF holdoff of SMIs           yes
+2025-03-18T08:18:08.553Z In(05) vmx   Allow all VMWRITEs               yes
+2025-03-18T08:18:08.553Z In(05) vmx   Allow zero instruction length    yes
+2025-03-18T08:18:08.553Z In(05) vmx   MSEG revision ID                   0
+2025-03-18T08:18:08.553Z In(05) vmx VMX-Fixed Bits in CR0 (0x0000000080000021/0x00000000ffffffff)
+2025-03-18T08:18:08.553Z In(05) vmx   Fixed to 0        0xffffffff00000000
+2025-03-18T08:18:08.553Z In(05) vmx   Fixed to 1        0x0000000080000021
+2025-03-18T08:18:08.553Z In(05) vmx   Variable          0x000000007fffffde
+2025-03-18T08:18:08.553Z In(05) vmx VMX-Fixed Bits in CR4 (0x0000000000002000/0x00000000003727ff)
+2025-03-18T08:18:08.553Z In(05) vmx   Fixed to 0        0xffffffffffc8d800
+2025-03-18T08:18:08.553Z In(05) vmx   Fixed to 1        0x0000000000002000
+2025-03-18T08:18:08.553Z In(05) vmx   Variable          0x00000000003707ff
+2025-03-18T08:18:08.553Z In(05) vmx VMCS Enumeration (0x000000000000002e)
+2025-03-18T08:18:08.553Z In(05) vmx   Highest index                   0x17
+2025-03-18T08:18:08.553Z In(05) vmx VM Functions (0x0000000000000001)
+2025-03-18T08:18:08.553Z In(05) vmx   Function  0 (EPTP-switching) supported.
+2025-03-18T08:18:08.553Z In(05) vmx Monitor_PowerOn: hostedVSMPMaxSkew is 1500 us (3312006 cycles)
+2025-03-18T08:18:08.553Z In(05) vmx vmm-modules: [vmm.vmm, vmce-vmce.vmm, viommu-none.vmm, vprobe-none.vmm, hv-vt.vmm, gphys-ept.vmm, callstack-none.vmm, ahci-ahci.vmm, !ahciShared=0x0, !e1000Shared=0xc00, !tdxSharedVMData=0x1480, !vmSamples=0x1480, !theIOSpace=0x1500, !ttGPPerVcpu=0x8340, {UseUnwind}=0x0, numVCPUsAsAddr=0x4, {SharedAreaReservations}=0x8380, {rodataSize}=0x21b4a, {textAddr}=0xfffffffffc000000, {textSize}=0x91583, <MonSrcFile>]
+2025-03-18T08:18:08.553Z In(05) vmx vmm-vcpus:   4
+2025-03-18T08:18:08.584Z In(05) vmx KHZEstimate 2208004
+2025-03-18T08:18:08.584Z In(05) vmx MHZEstimate 2208
+2025-03-18T08:18:08.584Z In(05) vmx NumVCPUs 4
+2025-03-18T08:18:08.584Z In(05) vmx AIOGNRC: numThreads=17 ide=0, scsi=1, passthru=0
+2025-03-18T08:18:08.584Z In(05) vmx WORKER: Creating new group with maxThreads=17 (17)
+2025-03-18T08:18:08.599Z In(05) vmx WORKER: Creating new group with maxThreads=1 (18)
+2025-03-18T08:18:08.599Z In(05) vmx MainMem: CPT Host WZ=0 PF=4096 D=0
+2025-03-18T08:18:08.599Z In(05) vmx MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2025-03-18T08:18:08.599Z In(05) vmx MStat: Creating Stat vm.uptime
+2025-03-18T08:18:08.599Z In(05) vmx MStat: Creating Stat vm.suspendTime
+2025-03-18T08:18:08.599Z In(05) vmx MStat: Creating Stat vm.powerOnTimeStamp
+2025-03-18T08:18:08.599Z In(05) aioCompletion VTHREAD 8560 "aioCompletion"
+2025-03-18T08:18:08.599Z In(05) vmx VMXAIOMGR: Using: simple=Compl
+2025-03-18T08:18:08.599Z In(05) vmx WORKER: Creating new group with maxThreads=1 (19)
+2025-03-18T08:18:08.615Z In(05) vmx WORKER: Creating new group with maxThreads=1 (20)
+2025-03-18T08:18:08.615Z In(05) vmx WORKER: Creating new group with maxThreads=14 (34)
+2025-03-18T08:18:08.615Z In(05) vmx FeatureCompat: No VM masks.
+2025-03-18T08:18:08.615Z In(05) vmx TimeTracker host to guest rate conversion 861548652 @ 2208004000Hz -> 0 @ 2208004000Hz
+2025-03-18T08:18:08.615Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -861548652
+2025-03-18T08:18:08.615Z In(05) vmx Disabling TSC scaling since host does not support it.
+2025-03-18T08:18:08.615Z In(05) vmx TSC offsetting enabled.
+2025-03-18T08:18:08.615Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2025-03-18T08:18:08.615Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2025-03-18T08:18:08.615Z In(05) vmx MKS PowerOn
+2025-03-18T08:18:08.615Z In(05) mks VTHREAD 9136 "mks"
+2025-03-18T08:18:08.615Z In(05) mks MKS thread is alive
+2025-03-18T08:18:08.615Z In(05) svga VTHREAD 7456 "svga"
+2025-03-18T08:18:08.615Z In(05) svga SVGA thread is alive
+2025-03-18T08:18:08.615Z In(05) mks MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2025-03-18T08:18:08.615Z In(05) mouse VTHREAD 464 "mouse"
+2025-03-18T08:18:08.615Z In(05) mks MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2025-03-18T08:18:08.615Z In(05) kbh VTHREAD 12228 "kbh"
+2025-03-18T08:18:08.629Z In(05) mks MKS Win32: Registering top level window (0x40078) to receive session change notification.
+2025-03-18T08:18:08.631Z In(05) mks Current Display Settings:
+2025-03-18T08:18:08.631Z In(05) mks    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2025-03-18T08:18:08.631Z In(05) mks MKS Win32: MIL: 0x4000
+2025-03-18T08:18:08.631Z In(05) mks MKS-RenderMain: PowerOn allowed MKSBasicOps DX11Renderer DX11BasicRenderer ISBRenderer DX12Renderer 
+2025-03-18T08:18:08.631Z In(05) mks MKS-RenderMain: ISB enabled by config
+2025-03-18T08:18:08.631Z In(05) mks MKS-RenderMain: Collecting RenderOps caps from ISBRenderer
+2025-03-18T08:18:08.631Z In(05) mks MKS-RenderMain: Starting ISBRenderer
+2025-03-18T08:18:08.631Z In(05) mks ISBRendererComm: ISBRendererComm DataChannel size=4294967296
+2025-03-18T08:18:08.631Z In(05) mks LocalMKS: MKS_UUID=52 c5 39 b2 3c 4a 8b 7b-3d fe 4f 48 00 24 5f d8
+2025-03-18T08:18:08.631Z In(05) mks LogRotation: Rotating to a new log file (keepOld 3) took 0.000864 seconds.
+2025-03-18T08:18:08.631Z In(05) mks ISBRendererComm: mksSandbox command-line: C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe --pipeInfo \\.\pipe\vmware\mksSandbox\mksSandbox-52 47 a7 70 85 53 aa a2-df 67 67 2d 40 e8 cf 87
+2025-03-18T08:18:08.678Z In(05) mks ISBRendererComm: Spawned process with handle 1508
+2025-03-18T08:18:08.761Z In(05) mks ISBRendererComm: Sandbox Renderer: DX12Renderer
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: Available adapters:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:  Intel(R) UHD Graphics 620
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    VendorId = 32902, DeviceId = 22807, SubSysId = 135729192, Revision = 7, AdapterLuid = 073641, Flags = 2c
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    DedicatedVideoMemory = 134217728, DedicatedSystemMemory = 0, SharedSystemMemory = 4220743680
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:  Microsoft Basic Render Driver
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    VendorId = 5140, DeviceId = 140, SubSysId = 0, Revision = 0, AdapterLuid = 074678, Flags = 2e
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    DedicatedVideoMemory = 0, DedicatedSystemMemory = 0, SharedSystemMemory = 4220743680
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: Selected adapter:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:  Intel(R) UHD Graphics 620
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    VendorId = 32902, DeviceId = 22807, SubSysId = 135729192, Revision = 7, AdapterLuid = 073641, Flags = 2c
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:    DedicatedVideoMemory = 134217728, DedicatedSystemMemory = 0, SharedSystemMemory = 4220743680
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: D3D12_FEATURE_D3D12_OPTIONS:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   DoublePrecisionFloatShaderOps = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   OutputMergerLogicOp = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   MinPrecisionSupport = D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   TiledResourcesTier = D3D12_TILED_RESOURCES_TIER_3
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   ResourceBindingTier = D3D12_RESOURCE_BINDING_TIER_3
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   PSSpecifiedStencilRefSupported = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   TypedUAVLoadAdditionalFormats = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   ROVsSupported = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   ConservativeRasterizationTier = D3D12_CONSERVATIVE_RASTERIZATION_TIER_3
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   MaxGPUVirtualAddressBitsPerResource = 38
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   StandardSwizzle64KBSupported = false
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   CrossNodeSharingTier = D3D12_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   CrossAdapterRowMajorTextureSupported = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   ResourceHeapTier = D3D12_RESOURCE_HEAP_TIER_2
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: D3D12_FEATURE_DATA_ARCHITECTURE1:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   NodeIndex = 0
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   TileBasedRenderer = false
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   UMA = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   CacheCoherentUMA = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   IsolatedMMU = true
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   MaxGPUVirtualAddressBitsPerResource = 38
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   MaxGPUVirtualAddressBitsPerProcess = 48
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: max support shader model = D3D_SHADER_MODEL_6_4
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module: D3D12_FEATURE_DATA_EXISTING_HEAPS:
+2025-03-18T08:18:08.763Z Wa(03) mks mksSandboxLog: DX12Module:   Supported = true
+2025-03-18T08:18:08.766Z In(05) mks MKS-RenderMain: Started ISBRenderer with (DX12Renderer)
+2025-03-18T08:18:08.766Z In(05) mks MKS-RenderMain: Found Full Renderer: ISBRenderer (DX12Renderer)
+2025-03-18T08:18:08.766Z In(05) mks MKS-RenderMain: maxTextureSize=16384
+2025-03-18T08:18:08.767Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2025-03-18T08:18:08.767Z In(05) mks MKSRemoteMgr: Set default display name: Windows 8.x x64 (2)
+2025-03-18T08:18:08.767Z In(05) mks MKSRemoteMgr: Loading VNC Configuration from VM config file
+2025-03-18T08:18:08.767Z In(05) mks MKSRemoteMgr: Using default VNC keymap table "us"
+2025-03-18T08:18:08.767Z In(05) vmx VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2025-03-18T08:18:08.767Z In(05) vmx VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2025-03-18T08:18:08.769Z In(05) vmx Chipset version: 0x13
+2025-03-18T08:18:08.770Z In(05) vmx SOUNDLIB: Creating the Wave sound backend.
+2025-03-18T08:18:08.794Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "-1"
+2025-03-18T08:18:08.794Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "-1"
+2025-03-18T08:18:08.794Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "-1"
+2025-03-18T08:18:08.794Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "-1"
+2025-03-18T08:18:08.795Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2025-03-18T08:18:08.795Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2025-03-18T08:18:08.795Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2025-03-18T08:18:08.795Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2025-03-18T08:18:08.799Z In(05) vmx VMXSTATS: Registering 46 stats: vmx.configWriteMinMaxTime
+2025-03-18T08:18:08.799Z In(05) vmx VMXSTATS: Registering 47 stats: vmx.configWriteAvgTime
+2025-03-18T08:18:08.810Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation begins.
+2025-03-18T08:18:08.810Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation completes.
+2025-03-18T08:18:08.810Z No(00) vmx ConfigDB: Setting scsi0:0.redo = ""
+2025-03-18T08:18:08.810Z In(05) vmx DISK: OPEN scsi0:0 'D:\smester 6\Windows 8.x x64 (2).vmdk' persistent R[]
+2025-03-18T08:18:08.815Z In(05) vmx FILE: FileLockScanDirectory discarding M44312.lck from D:\smester 6\Windows 8.x x64 (2).vmdk.lck': invalid executionID 11732-133867594555512606(vmware-vmx.exe).
+2025-03-18T08:18:08.832Z In(05) vmx DiskGetGeometry: Reading of disk partition table
+2025-03-18T08:18:08.832Z In(05) vmx DISK: Disk 'D:\smester 6\Windows 8.x x64 (2).vmdk' has UUID '60 00 c2 90 47 0d 54 c7-3d 09 0b f6 e2 dd 6c 76'
+2025-03-18T08:18:08.832Z In(05) vmx DISK: OPEN 'D:\smester 6\Windows 8.x x64 (2).vmdk' Geo (7832/255/63) BIOS Geo (7832/255/63)
+2025-03-18T08:18:08.840Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.842Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.844Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.846Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.849Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.851Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.853Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.855Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.857Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.859Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.861Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.863Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.866Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.868Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.870Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.872Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 1
+2025-03-18T08:18:08.872Z In(05) vmx DISK: DiskConfigureVirtualSSD:  Disk 'scsi0:0' identified as Virtual SSD device.
+2025-03-18T08:18:08.872Z In(05) vmx DISK: Opening disks took 61 ms.
+2025-03-18T08:18:08.872Z In(05) vmx USBArbLib: USBArbLib initialized successfully, retryIntervalStart(5), retryIntervalMax(120), arbSocketName(\\.\pipe\vmware-usbarbpipe), useLocking(yes), tryUpgrading(no).
+2025-03-18T08:18:08.872Z In(05) vmx UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+2025-03-18T08:18:08.872Z In(05) vmx USB: Initializing 'Virtual Hub' backend
+2025-03-18T08:18:08.872Z In(05) vmx USB: Initializing 'Generic' backend
+2025-03-18T08:18:08.872Z Wa(03) vmx USBArbLib: OUT SET_AUTO_CONNECT: Not connected to arbitrator, autoconnect(0) for client 'Windows 8.x x64 (2)', connectState(1).
+2025-03-18T08:18:08.872Z In(05) vmx USB: Initializing 'Virtual HID' backend
+2025-03-18T08:18:08.873Z In(05) sensorThread VTHREAD 11720 "sensorThread"
+2025-03-18T08:18:08.873Z In(05) vmx USB: Initializing 'Remote Device' backend
+2025-03-18T08:18:08.873Z In(05) vmx RemoteUSBVMX: Retrieved hostId [44 45 4c 4c 37 00 10 50-80 48 c8 c0 4f 37 59 32].
+2025-03-18T08:18:08.873Z In(05) vmx RemoteUSBVMX: Protocol version min:15 current:19
+2025-03-18T08:18:08.873Z In(05) vmx RemoteUSBVMX: no delay setting is TRUE.
+2025-03-18T08:18:08.873Z In(05) vmx USB: Initializing 'Virtual Mass Storage' backend
+2025-03-18T08:18:08.873Z In(05) vmx USB: Initializing 'Virtual RNG' backend
+2025-03-18T08:18:08.873Z In(05) vmx USB: Initializing 'Virtual CCID' backend
+2025-03-18T08:18:08.874Z In(05) vmx USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2025-03-18T08:18:08.874Z In(05) vmx USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2025-03-18T08:18:08.876Z In(05) usbCCIDEnumCards VTHREAD 3476 "usbCCIDEnumCards"
+2025-03-18T08:18:08.876Z In(05) usbCCIDEnumCards USB-CCID: Card enum thread created.
+2025-03-18T08:18:08.876Z In(05) vmx USB: Initializing 'Virtual Bluetooth' backend
+2025-03-18T08:18:08.876Z In(05) vmx USB: Initializing 'Virtual Audio' backend
+2025-03-18T08:18:08.876Z In(05) vmx USB: Initializing 'Virtual Video' backend
+2025-03-18T08:18:08.884Z Wa(03) vmx USBGW: IOCTL_STORAGE_QUERY_PROPERTY failed. Error(0x0): The operation completed successfully.
+2025-03-18T08:18:08.884Z In(05) vmx USBGW: Skipping disk backing for path(D:\smester 6\Windows 8.x x64 (2).vmx).
+2025-03-18T08:18:08.885Z Wa(03) vmx USBGW: IOCTL_STORAGE_QUERY_PROPERTY failed. Error(0x0): The operation completed successfully.
+2025-03-18T08:18:08.885Z In(05) vmx USBGW: Skipping disk backing for path(D:\smester 6\Windows 8.x x64 (2).vmdk).
+2025-03-18T08:18:08.885Z Wa(03) vmx USBGW: IOCTL_STORAGE_QUERY_PROPERTY failed. Error(0x0): The operation completed successfully.
+2025-03-18T08:18:08.885Z In(05) vmx USBGW: Skipping disk backing for path(D:\smester 6\Windows 8.x x64 (2).vmsd).
+2025-03-18T08:18:08.885Z Wa(03) vmx USBGW: IOCTL_STORAGE_QUERY_PROPERTY failed. Error(0x0): The operation completed successfully.
+2025-03-18T08:18:08.885Z In(05) vmx USBGW: Skipping disk backing for path(D:\smester 6\Windows 8.x x64 (2).nvram).
+2025-03-18T08:18:08.886Z In(05) usbCCIDEnumCards USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2025-03-18T08:18:08.887Z In(05) vmx SCSI: scsi0: intr coalescing: on period=50msec cifTh=4 iopsTh=2000 hlt=0
+2025-03-18T08:18:08.887Z In(05) vmx SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2025-03-18T08:18:08.887Z In(05) vmx SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: default
+2025-03-18T08:18:08.887Z In(05) vmx DISKUTIL: scsi0:0 : capacity=125829120 logical sector size=512
+2025-03-18T08:18:08.887Z In(05) vmx DISKUTIL: scsi0:0 : geometry=7832/255/63
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: Autodetected target gfbSize = 268435456
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: Using Initial       gfbSize = 134217728
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: MaxPrimaryMem      register = 268435456
+2025-03-18T08:18:08.888Z In(05) vmx SVGA-GFB: Max wh(6688, 5016), number of displays: 10
+2025-03-18T08:18:08.888Z In(05) vmx SVGA: SVGA DeviceLabel: svga2
+2025-03-18T08:18:08.888Z No(00) vmx ConfigDB: Setting vmotion.svga.mobMaxSize = "1073741824"
+2025-03-18T08:18:08.888Z No(00) vmx ConfigDB: Setting vmotion.svga.graphicsMemoryKB = "8388608"
+2025-03-18T08:18:08.888Z In(05) vmx SVGA: mobMaxSize=1073741824
+2025-03-18T08:18:08.888Z In(05) vmx SVGA: graphicsMemoryKB=8388608
+2025-03-18T08:18:08.888Z In(05) vmx SVGA: FIFO capabilities 0x0000077f
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.supports3D bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.baseCapsLevel num 11
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxPointSize num 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureSize num 16384
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxVolumeExtent num 2048
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureAnisotropy num 16
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.lineStipple bool 0
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxMaxConstantBuffers num 15
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxProvokingVertex bool 0
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm41 bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample2x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample4x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.msFullQuality bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicOps bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.bc67 num 9
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm5 bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample8x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicBlendOps bool 0
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxForcedSampleCount num 16
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (before clamping) svga.gl43 bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.supports3D bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.baseCapsLevel num 9
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxPointSize num 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureSize num 16384
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxVolumeExtent num 2048
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureAnisotropy num 16
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.lineStipple bool 0
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxMaxConstantBuffers num 15
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxProvokingVertex bool 0
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm41 bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample2x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample4x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.msFullQuality bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicOps bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.bc67 num 9
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm5 bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample8x bool 1
+2025-03-18T08:18:08.888Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicBlendOps bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxForcedSampleCount num 16
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature renderer (after  clamping) svga.gl43 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host id: 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.supports3D bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.baseCapsLevel num 9
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.maxPointSize num 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.maxTextureSize num 16384
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.maxVolumeExtent num 2048
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.maxTextureAnisotropy num 16
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.lineStipple bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.dxMaxConstantBuffers num 15
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.dxProvokingVertex bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.sm41 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.multisample2x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.multisample4x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.msFullQuality bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.logicOps bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.bc67 num 9
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.sm5 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.multisample8x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.logicBlendOps bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.maxForcedSampleCount num 16
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature    host svga.gl43 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost id: 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.supports3D bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.baseCapsLevel num 9
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.maxPointSize num 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.maxTextureSize num 16384
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.maxVolumeExtent num 2048
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.maxTextureAnisotropy num 16
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.lineStipple bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.dxMaxConstantBuffers num 15
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.dxProvokingVertex bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.sm41 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.multisample2x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.multisample4x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.msFullQuality bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.logicOps bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.bc67 num 9
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.sm5 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.multisample8x bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.logicBlendOps bool 0
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.maxForcedSampleCount num 16
+2025-03-18T08:18:08.889Z In(05) vmx SVGAFeature evcHost svga.gl43 bool 1
+2025-03-18T08:18:08.889Z In(05) vmx SVGA3dClamp: Renderer Provides     BC67Level:     9 (    9,     9)
+2025-03-18T08:18:08.889Z In(05) vmx SVGA3dClamp: Renderer Provides BaseCapsLevel:     9 (    9,     9)
+2025-03-18T08:18:08.889Z In(05) vmx SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,    10)
+2025-03-18T08:18:08.889Z In(05) vmx SVGA3dCaps: host, at power on (3d enabled)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  0]: 0x00000001 (3D)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  1]: 0x00000008 (MAX_LIGHTS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  2]: 0x00000008 (MAX_TEXTURES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  5]: 0x00000001 (VERTEX_SHADER)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 15]: 0x00000001 (QUERY_TYPES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2025-03-18T08:18:08.889Z In(05) vmx   cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 62]: 0x00000000 (MISSING62)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 70]: 0x00000000 (DEAD4)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 71]: 0x00000000 (DEAD5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 72]: 0x00000000 (DEAD7)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 73]: 0x00000000 (DEAD6)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 76]: 0x00000000 (DEAD10)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 84]: 0x00000000 (DEAD1)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 85]: 0x00000000 (DEAD8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 86]: 0x00000000 (DEAD9)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 87]: 0x00000001 (LINE_AA)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 89]:  10.000000 (MAX_LINE_WIDTH)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 90]:  10.000000 (MAX_AA_LINE_WIDTH)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 92]: 0x00000000 (DEAD3)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 94]: 0x00000000 (DEAD2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 95]: 0x00000001 (DXCONTEXT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 96]: 0x00000000 (DEAD11)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 97]: 0x00000010 (DX_MAX_VERTEXBUFFERS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 98]: 0x0000000f (DX_MAX_CONSTANT_BUFFERS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[100]: 0x000002f7 (DXFMT_X8R8G8B8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[101]: 0x000003f7 (DXFMT_A8R8G8B8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[102]: 0x000002f7 (DXFMT_R5G6B5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[103]: 0x000000f7 (DXFMT_X1R5G5B5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[104]: 0x000000f7 (DXFMT_A1R5G5B5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[105]: 0x000000f7 (DXFMT_A4R4G4B4)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[106]: 0x00000009 (DXFMT_Z_D32)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[107]: 0x0000026b (DXFMT_Z_D16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[108]: 0x0000026b (DXFMT_Z_D24S8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[109]: 0x0000000b (DXFMT_Z_D15S1)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[110]: 0x000000f7 (DXFMT_LUMINANCE8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[111]: 0x000000e3 (DXFMT_LUMINANCE4_ALPHA4)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[112]: 0x000000f7 (DXFMT_LUMINANCE16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[113]: 0x000000e3 (DXFMT_LUMINANCE8_ALPHA8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[114]: 0x00000063 (DXFMT_DXT1)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[115]: 0x00000063 (DXFMT_DXT2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[116]: 0x00000063 (DXFMT_DXT3)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[117]: 0x00000063 (DXFMT_DXT4)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[118]: 0x00000063 (DXFMT_DXT5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[119]: 0x000000e3 (DXFMT_BUMPU8V8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[121]: 0x00000063 (DXFMT_BUMPX8L8V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[123]: 0x000003f7 (DXFMT_ARGB_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[124]: 0x000003f7 (DXFMT_ARGB_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[125]: 0x000003f7 (DXFMT_A2R10G10B10)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[126]: 0x000000e3 (DXFMT_V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[127]: 0x00000063 (DXFMT_Q8W8V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[128]: 0x00000063 (DXFMT_CxV8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[129]: 0x000000e3 (DXFMT_X8L8V8U8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[130]: 0x000000e3 (DXFMT_A2W10V10U10)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[131]: 0x000000f7 (DXFMT_ALPHA8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[132]: 0x000003f7 (DXFMT_R_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[133]: 0x000003f7 (DXFMT_R_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[134]: 0x000003f7 (DXFMT_RG_S10E5)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[135]: 0x000003f7 (DXFMT_RG_S23E8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[136]: 0x00000001 (DXFMT_BUFFER)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[137]: 0x0000026b (DXFMT_Z_D24X8)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[138]: 0x000001e3 (DXFMT_V16U16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[139]: 0x000003f7 (DXFMT_G16R16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[140]: 0x000001f7 (DXFMT_A16B16G16R16)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[141]: 0x00000001 (DXFMT_UYVY)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[142]: 0x00000041 (DXFMT_YUY2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[143]: 0x00000041 (DXFMT_NV12)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[144]: 0x00000000 (DXFMT_FORMAT_DEAD2)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[145]: 0x000002e1 (DXFMT_R32G32B32A32_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[146]: 0x000003e7 (DXFMT_R32G32B32A32_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[147]: 0x000003e7 (DXFMT_R32G32B32A32_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[148]: 0x000000e1 (DXFMT_R32G32B32_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[149]: 0x000001e3 (DXFMT_R32G32B32_FLOAT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[150]: 0x000001e3 (DXFMT_R32G32B32_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[151]: 0x000001e3 (DXFMT_R32G32B32_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[152]: 0x000002e1 (DXFMT_R16G16B16A16_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[153]: 0x000003e7 (DXFMT_R16G16B16A16_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[154]: 0x000003f7 (DXFMT_R16G16B16A16_SNORM)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[155]: 0x000003e7 (DXFMT_R16G16B16A16_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[156]: 0x000002e1 (DXFMT_R32G32_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[157]: 0x000003e7 (DXFMT_R32G32_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[158]: 0x000003e7 (DXFMT_R32G32_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[159]: 0x00000261 (DXFMT_R32G8X24_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[160]: 0x00000269 (DXFMT_D32_FLOAT_S8X24_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[161]: 0x00000063 (DXFMT_R32_FLOAT_X8X24)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[162]: 0x00000063 (DXFMT_X32_G8X24_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[163]: 0x000002e1 (DXFMT_R10G10B10A2_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[164]: 0x000003e7 (DXFMT_R10G10B10A2_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[165]: 0x000003f7 (DXFMT_R11G11B10_FLOAT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[166]: 0x000002e1 (DXFMT_R8G8B8A8_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[167]: 0x000003f7 (DXFMT_R8G8B8A8_UNORM)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[168]: 0x000002f7 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[169]: 0x000003e7 (DXFMT_R8G8B8A8_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[170]: 0x000003e7 (DXFMT_R8G8B8A8_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[171]: 0x000002e1 (DXFMT_R16G16_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[172]: 0x000003e7 (DXFMT_R16G16_UINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[173]: 0x000003e7 (DXFMT_R16G16_SINT)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[174]: 0x000002e1 (DXFMT_R32_TYPELESS)
+2025-03-18T08:18:08.890Z In(05) vmx   cap[175]: 0x00000269 (DXFMT_D32_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[176]: 0x000003e7 (DXFMT_R32_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[177]: 0x000003e7 (DXFMT_R32_SINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[178]: 0x00000261 (DXFMT_R24G8_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[179]: 0x00000269 (DXFMT_D24_UNORM_S8_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[180]: 0x00000063 (DXFMT_R24_UNORM_X8)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[181]: 0x00000063 (DXFMT_X24_G8_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[182]: 0x000002e1 (DXFMT_R8G8_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[183]: 0x000003f7 (DXFMT_R8G8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[184]: 0x000003e7 (DXFMT_R8G8_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[185]: 0x000003e7 (DXFMT_R8G8_SINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[186]: 0x000002e1 (DXFMT_R16_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[187]: 0x000003f7 (DXFMT_R16_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[188]: 0x000003e7 (DXFMT_R16_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[189]: 0x000003f7 (DXFMT_R16_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[190]: 0x000003e7 (DXFMT_R16_SINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[191]: 0x000002e1 (DXFMT_R8_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[192]: 0x000003f7 (DXFMT_R8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[193]: 0x000003e7 (DXFMT_R8_UINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[194]: 0x000003f7 (DXFMT_R8_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[195]: 0x000003e7 (DXFMT_R8_SINT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[196]: 0x00000001 (DXFMT_P8)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[197]: 0x000000e3 (DXFMT_R9G9B9E5_SHAREDEXP)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[198]: 0x000000e3 (DXFMT_R8G8_B8G8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[199]: 0x000000e3 (DXFMT_G8R8_G8B8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[200]: 0x000000e1 (DXFMT_BC1_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[201]: 0x000000e3 (DXFMT_BC1_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[202]: 0x000000e1 (DXFMT_BC2_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[203]: 0x000000e3 (DXFMT_BC2_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[204]: 0x000000e1 (DXFMT_BC3_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[205]: 0x000000e3 (DXFMT_BC3_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[206]: 0x000000e1 (DXFMT_BC4_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[207]: 0x00000063 (DXFMT_ATI1)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[208]: 0x000000e3 (DXFMT_BC4_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[209]: 0x000000e1 (DXFMT_BC5_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[210]: 0x00000063 (DXFMT_ATI2)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[211]: 0x000000e3 (DXFMT_BC5_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[212]: 0x00000045 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[213]: 0x000002e1 (DXFMT_B8G8R8A8_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[214]: 0x000002f7 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[215]: 0x000002e1 (DXFMT_B8G8R8X8_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[216]: 0x000002f7 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[217]: 0x0000006b (DXFMT_Z_DF16)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[218]: 0x0000006b (DXFMT_Z_DF24)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[219]: 0x0000006b (DXFMT_Z_D24S8_INT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[220]: 0x00000001 (DXFMT_YV12)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[221]: 0x000003f7 (DXFMT_R32G32B32A32_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[222]: 0x000003f7 (DXFMT_R16G16B16A16_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[223]: 0x000003f7 (DXFMT_R16G16B16A16_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[224]: 0x000003f7 (DXFMT_R32G32_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[225]: 0x000003f7 (DXFMT_R10G10B10A2_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[226]: 0x000003f7 (DXFMT_R8G8B8A8_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[227]: 0x000003f7 (DXFMT_R16G16_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[228]: 0x000003f7 (DXFMT_R16G16_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[229]: 0x000003f7 (DXFMT_R16G16_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[230]: 0x000003f7 (DXFMT_R32_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[231]: 0x000003f7 (DXFMT_R8G8_SNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[232]: 0x000003f7 (DXFMT_R16_FLOAT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[233]: 0x00000269 (DXFMT_D16_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[234]: 0x000002f7 (DXFMT_A8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[235]: 0x000000e3 (DXFMT_BC1_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[236]: 0x000000e3 (DXFMT_BC2_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[237]: 0x000000e3 (DXFMT_BC3_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[238]: 0x000002f7 (DXFMT_B5G6R5_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[239]: 0x000002f7 (DXFMT_B5G5R5A1_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[240]: 0x000003f7 (DXFMT_B8G8R8A8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[241]: 0x000003f7 (DXFMT_B8G8R8X8_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[242]: 0x000000e3 (DXFMT_BC4_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[243]: 0x000000e3 (DXFMT_BC5_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[244]: 0x00000001 (SM41)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[245]: 0x00000001 (MULTISAMPLE_2X)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[246]: 0x00000001 (MULTISAMPLE_4X)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[247]: 0x00000001 (MS_FULL_QUALITY)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[248]: 0x00000001 (LOGICOPS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[249]: 0x00000000 (LOGIC_BLENDOPS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[250]: 0x00000000 (DEAD12)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[251]: 0x000000e1 (DXFMT_BC6H_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[252]: 0x000000e3 (DXFMT_BC6H_UF16)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[253]: 0x000000e3 (DXFMT_BC6H_SF16)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[254]: 0x000000e1 (DXFMT_BC7_TYPELESS)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[255]: 0x000000e3 (DXFMT_BC7_UNORM)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[256]: 0x000000e3 (DXFMT_BC7_UNORM_SRGB)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[257]: 0x00000000 (DEAD13)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[258]: 0x00000001 (SM5)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[259]: 0x00000001 (MULTISAMPLE_8X)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[260]: 0x00000010 (MAX_FORCED_SAMPLE_COUNT)
+2025-03-18T08:18:08.891Z In(05) vmx   cap[261]: 0x00000001 (GL43)
+2025-03-18T08:18:08.891Z In(05) vmx SVGA3dClamp:     Host Provides     BC67Level:     9 (    9,     9)
+2025-03-18T08:18:08.891Z In(05) vmx SVGA3dClamp:     Host Provides BaseCapsLevel:     9 (    9,     9)
+2025-03-18T08:18:08.891Z In(05) vmx SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,    10)
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config id: 0
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.supports3D bool 1
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.baseCapsLevel num 9
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.maxPointSize num 1
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.maxTextureSize num 16384
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.maxVolumeExtent num 2048
+2025-03-18T08:18:08.891Z In(05) vmx SVGAFeature config svga.maxTextureAnisotropy num 16
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.lineStipple bool 0
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.dxMaxConstantBuffers num 15
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.dxProvokingVertex bool 0
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.sm41 bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.multisample2x bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.multisample4x bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.msFullQuality bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.logicOps bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.bc67 num 9
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.sm5 bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.multisample8x bool 1
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.logicBlendOps bool 0
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.maxForcedSampleCount num 16
+2025-03-18T08:18:08.892Z In(05) vmx SVGAFeature config svga.gl43 bool 1
+2025-03-18T08:18:08.893Z In(05) vmx USB: Initializing 'UHCI' host controller.
+2025-03-18T08:18:08.894Z In(05) vmx Ethernet0 MAC Address: 00:0c:29:9a:dd:6b
+2025-03-18T08:18:08.895Z In(05) vmx USB: Initializing 'EHCI' host controller.
+2025-03-18T08:18:08.896Z In(05) vmx USB: Initializing 'xHCI' host controller.
+2025-03-18T08:18:08.896Z In(05) vmx PCIXHCI: SuperSpeed20Gbps(USB3.2) is supported by xHCI.
+2025-03-18T08:18:08.896Z In(05) vmx USB: PowerOnCreateDevice 'usb_xhci:4' #4, found port 1F682955C88.
+2025-03-18T08:18:08.896Z No(00) vmx ConfigDB: Setting usb_xhci:4.present = "TRUE"
+2025-03-18T08:18:08.896Z No(00) vmx ConfigDB: Setting usb_xhci:4.deviceType = "hid"
+2025-03-18T08:18:08.896Z No(00) vmx ConfigDB: Setting usb_xhci:4.port = "4"
+2025-03-18T08:18:08.896Z No(00) vmx ConfigDB: Setting usb_xhci:4.parent = "-1"
+2025-03-18T08:18:08.905Z No(00) vmx ConfigDB: Setting vmci0.id = "-1046815381"
+2025-03-18T08:18:08.913Z In(05) vmx AHCI:Successfully created adapter 'sata0' as num 0
+2025-03-18T08:18:08.913Z In(05) vmx SCSI DEVICE (sata0:1): Computed value of sata0:1.useBounceBuffers: default
+2025-03-18T08:18:08.913Z In(05) vmx DISKUTIL: sata0:1 : capacity=0 logical sector size=2048
+2025-03-18T08:18:08.913Z In(05) vmx DISKUTIL: sata0:1 : geometry=0/0/0
+2025-03-18T08:18:08.913Z In(05) vmx AHCI:Creating ATAPI CDROM on SATA adapter.
+2025-03-18T08:18:08.913Z In(05) vmx AHCI:Successfully created device: sata0:1
+2025-03-18T08:18:08.916Z In(05) vmx WORKER: Creating new group with maxThreads=1 (35)
+2025-03-18T08:18:08.916Z In(05) vmx DISKUTIL: (null) : max toolsVersion = 0, type = 0
+2025-03-18T08:18:08.917Z In(05) vmx DISKUTIL: Offline toolsVersion = 0, type = 0
+2025-03-18T08:18:08.917Z In(05) vmx TOOLS setting legacy tools version to '0' type 0, manifest status is 9
+2025-03-18T08:18:08.917Z In(05) vmx ToolsISO: Refreshing imageName for 'windows8-64' (refreshCount=1, lastCount=1).
+2025-03-18T08:18:08.917Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-03-18T08:18:08.917Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-03-18T08:18:08.918Z In(05) vmx ToolsISO: Updated cached value for imageName to 'windows.iso'.
+2025-03-18T08:18:08.918Z In(05) vmx ToolsISO: Selected Tools ISO 'windows.iso' for 'windows8-64' guest.
+2025-03-18T08:18:08.918Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Program Files (x86)\VMware\VMware Workstation\windows.iso", ...) failed, error: 2
+2025-03-18T08:18:08.918Z In(05) vmx TOOLS updated cached value for isoImageExists to 0.
+2025-03-18T08:18:08.918Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2025-03-18T08:18:08.918Z In(05) vmx ToolsISO: Refreshing imageName for 'windows8-64' (refreshCount=1, lastCount=1).
+2025-03-18T08:18:08.919Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-03-18T08:18:08.919Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-03-18T08:18:08.919Z In(05) vmx ToolsISO: Updated cached value for imageName to 'windows.iso'.
+2025-03-18T08:18:08.919Z In(05) vmx ToolsISO: Selected Tools ISO 'windows.iso' for 'windows8-64' guest.
+2025-03-18T08:18:08.919Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Program Files (x86)\VMware\VMware Workstation\windows.iso", ...) failed, error: 2
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS updated cached value for isoImageExists to 0.
+2025-03-18T08:18:08.919Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2025-03-18T08:18:08.919Z In(05) vmx Tools: sending 'OS_Resume' (state = 4) state change request
+2025-03-18T08:18:08.919Z In(05) vmx Tools: Delaying state change request to state 4.
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL initializing state to IDLE on power on.
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL updating Rpc handlers registration.
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL register RPC: upgrader.setGuestFileRoot
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.is_image_inserted
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.installerActive
+2025-03-18T08:18:08.919Z In(05) vmx TOOLS INSTALL register RPC: guest.upgrader_send_cmd_line_args
+2025-03-18T08:18:08.920Z In(05) vmx P9FS_PowerOn: 9PFS server is not enabled.
+2025-03-18T08:18:08.920Z In(05) vmx HgfsServerManagerVigorInit: Initialize: dev api
+2025-03-18T08:18:08.920Z In(05) vmx MKSVMX: Copy/paste enabled = 1
+2025-03-18T08:18:08.920Z In(05) vmx DEPLOYPKG: No pending deploy package name set
+2025-03-18T08:18:08.921Z In(05) vmx DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2025-03-18T08:18:08.921Z In(05) vmx MonPmc: ctrBase 0x4c1 selBase 0x186/1 PGC 1/1 SMM 1 drain 0 AMD 0
+2025-03-18T08:18:08.921Z In(05)+ vmx MonPmc:   gen counters num: 4 width 48 write width 48
+2025-03-18T08:18:08.921Z In(05)+ vmx MonPmc:   fix counters num: 3 width 48; version 4
+2025-03-18T08:18:08.921Z In(05)+ vmx MonPmc:   unavailable counters: 0x70000000f
+2025-03-18T08:18:08.921Z In(05) vmx CPT: Restoring checkpoint D:\smester 6\Windows 8.x x64 (2)-636ad098.vmss
+2025-03-18T08:18:08.923Z In(05) vmx DUMPER: Restoring checkpoint version 8.
+2025-03-18T08:18:08.923Z In(05) vmx PStrIntern expansion: nBkts=256
+2025-03-18T08:18:08.923Z In(05) vmx Progress -1% (msg.checkpoint.restoreStatus)
+2025-03-18T08:18:08.924Z In(05) vmx   restoring GuestVars
+2025-03-18T08:18:08.924Z In(05) vmx   restoring A20
+2025-03-18T08:18:08.924Z In(05) vmx   restoring BusMemSample
+2025-03-18T08:18:08.924Z In(05) vmx   restoring UUIDVMX
+2025-03-18T08:18:08.924Z In(05) vmx   restoring memory
+2025-03-18T08:18:08.924Z In(05) vmx DUMPER: Item 'MainMemPageZeroStateSize' [-1, -1] not found.
+2025-03-18T08:18:08.927Z In(05) vmx FILE: FileLockScanDirectory discarding M52247.lck from D:\smester 6\Windows 8.x x64 (2)-636ad098.vmem.lck': invalid executionID 11732-133867594555512606(vmware-vmx.exe).
+2025-03-18T08:18:08.928Z In(05) vmx MainMem: Opened paging file, 'D:\smester 6\Windows 8.x x64 (2)-636ad098.vmem'.
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: caller 0 numvm 1 locked pages: num 2668 max 1602048
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: locked Page Limit: host 1813723 config 1610240
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: minmempct 50  timestamp 175
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: VM 0 min 571749 max 1096037 shares 1048576 paged 4142968 nonpaged 37581 anonymous 9880 locked 2668 touchedPct 0 dirtiedPct 0 timestamp 175 vmResponsive is 1
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: locked 2668 target 1096037 balloon 0 0 0 swapped 0 0 allocd 0 512 state 0 100
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: states: 0 1 : 1 0 : 2 0 : 3 0
+2025-03-18T08:18:08.928Z In(05) vmx MemSched: Balloon enabled 1 guestType 0 maxSize 0
+2025-03-18T08:18:08.928Z In(05) vmx Progress 0% (none)
+2025-03-18T08:18:08.951Z In(05) vmx Progress 1% (none)
+2025-03-18T08:18:08.983Z In(05) vmx Progress 2% (none)
+2025-03-18T08:18:09.005Z In(05) vmx Progress 3% (none)
+2025-03-18T08:18:09.033Z In(05) vmx Progress 4% (none)
+2025-03-18T08:18:09.056Z In(05) vmx Progress 5% (none)
+2025-03-18T08:18:09.085Z In(05) vmx Progress 6% (none)
+2025-03-18T08:18:09.108Z In(05) vmx Progress 7% (none)
+2025-03-18T08:18:09.131Z In(05) vmx Progress 8% (none)
+2025-03-18T08:18:09.152Z In(05) vmx Progress 9% (none)
+2025-03-18T08:18:09.176Z In(05) vmx Progress 10% (none)
+2025-03-18T08:18:09.200Z In(05) vmx Progress 11% (none)
+2025-03-18T08:18:09.223Z In(05) vmx Progress 12% (none)
+2025-03-18T08:18:09.244Z In(05) vmx Progress 13% (none)
+2025-03-18T08:18:09.266Z In(05) vmx Progress 14% (none)
+2025-03-18T08:18:09.287Z In(05) vmx Progress 15% (none)
+2025-03-18T08:18:09.308Z In(05) vmx Progress 16% (none)
+2025-03-18T08:18:09.327Z In(05) vmx Progress 17% (none)
+2025-03-18T08:18:09.349Z In(05) vmx Progress 18% (none)
+2025-03-18T08:18:09.370Z In(05) vmx Progress 19% (none)
+2025-03-18T08:18:09.392Z In(05) vmx Progress 20% (none)
+2025-03-18T08:18:09.414Z In(05) vmx Progress 21% (none)
+2025-03-18T08:18:09.435Z In(05) vmx Progress 22% (none)
+2025-03-18T08:18:09.456Z In(05) vmx Progress 23% (none)
+2025-03-18T08:18:09.477Z In(05) vmx Progress 24% (none)
+2025-03-18T08:18:09.500Z In(05) vmx Progress 25% (none)
+2025-03-18T08:18:09.521Z In(05) vmx Progress 26% (none)
+2025-03-18T08:18:09.543Z In(05) vmx Progress 27% (none)
+2025-03-18T08:18:09.565Z In(05) vmx Progress 28% (none)
+2025-03-18T08:18:09.587Z In(05) vmx Progress 29% (none)
+2025-03-18T08:18:09.608Z In(05) vmx Progress 30% (none)
+2025-03-18T08:18:09.630Z In(05) vmx Progress 31% (none)
+2025-03-18T08:18:09.652Z In(05) vmx Progress 32% (none)
+2025-03-18T08:18:09.674Z In(05) vmx Progress 33% (none)
+2025-03-18T08:18:09.696Z In(05) vmx Progress 34% (none)
+2025-03-18T08:18:09.722Z In(05) vmx Progress 35% (none)
+2025-03-18T08:18:09.743Z In(05) vmx Progress 36% (none)
+2025-03-18T08:18:09.764Z In(05) vmx Progress 37% (none)
+2025-03-18T08:18:09.799Z In(05) vmx Progress 38% (none)
+2025-03-18T08:18:09.824Z In(05) vmx Progress 39% (none)
+2025-03-18T08:18:09.846Z In(05) vmx Progress 40% (none)
+2025-03-18T08:18:09.866Z In(05) vmx Progress 41% (none)
+2025-03-18T08:18:09.888Z In(05) vmx Progress 42% (none)
+2025-03-18T08:18:09.909Z In(05) vmx Progress 43% (none)
+2025-03-18T08:18:09.929Z In(05) vmx Progress 44% (none)
+2025-03-18T08:18:09.950Z In(05) vmx Progress 45% (none)
+2025-03-18T08:18:09.972Z In(05) vmx Progress 46% (none)
+2025-03-18T08:18:09.993Z In(05) vmx Progress 47% (none)
+2025-03-18T08:18:10.015Z In(05) vmx Progress 48% (none)
+2025-03-18T08:18:10.039Z In(05) vmx Progress 49% (none)
+2025-03-18T08:18:10.059Z In(05) vmx Progress 50% (none)
+2025-03-18T08:18:10.082Z In(05) vmx Progress 51% (none)
+2025-03-18T08:18:10.104Z In(05) vmx Progress 52% (none)
+2025-03-18T08:18:10.125Z In(05) vmx Progress 53% (none)
+2025-03-18T08:18:10.146Z In(05) vmx Progress 54% (none)
+2025-03-18T08:18:10.169Z In(05) vmx Progress 55% (none)
+2025-03-18T08:18:10.192Z In(05) vmx Progress 56% (none)
+2025-03-18T08:18:10.213Z In(05) vmx Progress 57% (none)
+2025-03-18T08:18:10.235Z In(05) vmx Progress 58% (none)
+2025-03-18T08:18:10.256Z In(05) vmx Progress 59% (none)
+2025-03-18T08:18:10.279Z In(05) vmx Progress 60% (none)
+2025-03-18T08:18:10.302Z In(05) vmx Progress 61% (none)
+2025-03-18T08:18:10.323Z In(05) vmx Progress 62% (none)
+2025-03-18T08:18:10.345Z In(05) vmx Progress 63% (none)
+2025-03-18T08:18:10.367Z In(05) vmx Progress 64% (none)
+2025-03-18T08:18:10.390Z In(05) vmx Progress 65% (none)
+2025-03-18T08:18:10.412Z In(05) vmx Progress 66% (none)
+2025-03-18T08:18:10.433Z In(05) vmx Progress 67% (none)
+2025-03-18T08:18:10.455Z In(05) vmx Progress 68% (none)
+2025-03-18T08:18:10.478Z In(05) vmx Progress 69% (none)
+2025-03-18T08:18:10.501Z In(05) vmx Progress 70% (none)
+2025-03-18T08:18:10.523Z In(05) vmx Progress 71% (none)
+2025-03-18T08:18:10.545Z In(05) vmx Progress 72% (none)
+2025-03-18T08:18:10.568Z In(05) vmx Progress 73% (none)
+2025-03-18T08:18:10.590Z In(05) vmx Progress 74% (none)
+2025-03-18T08:18:10.613Z In(05) vmx Progress 75% (none)
+2025-03-18T08:18:10.635Z In(05) vmx Progress 76% (none)
+2025-03-18T08:18:10.657Z In(05) vmx Progress 77% (none)
+2025-03-18T08:18:10.679Z In(05) vmx Progress 78% (none)
+2025-03-18T08:18:10.704Z In(05) vmx Progress 79% (none)
+2025-03-18T08:18:10.730Z In(05) vmx Progress 80% (none)
+2025-03-18T08:18:10.756Z In(05) vmx Progress 81% (none)
+2025-03-18T08:18:10.782Z In(05) vmx Progress 82% (none)
+2025-03-18T08:18:10.803Z In(05) vmx Progress 83% (none)
+2025-03-18T08:18:10.825Z In(05) vmx Progress 84% (none)
+2025-03-18T08:18:10.847Z In(05) vmx Progress 85% (none)
+2025-03-18T08:18:10.868Z In(05) vmx Progress 86% (none)
+2025-03-18T08:18:10.890Z In(05) vmx Progress 87% (none)
+2025-03-18T08:18:10.913Z In(05) vmx Progress 88% (none)
+2025-03-18T08:18:10.935Z In(05) vmx Progress 89% (none)
+2025-03-18T08:18:10.958Z In(05) vmx Progress 90% (none)
+2025-03-18T08:18:10.979Z In(05) vmx Progress 91% (none)
+2025-03-18T08:18:11.000Z In(05) vmx Progress 92% (none)
+2025-03-18T08:18:11.021Z In(05) vmx Progress 93% (none)
+2025-03-18T08:18:11.043Z In(05) vmx Progress 94% (none)
+2025-03-18T08:18:11.065Z In(05) vmx Progress 95% (none)
+2025-03-18T08:18:11.086Z In(05) vmx Progress 96% (none)
+2025-03-18T08:18:11.097Z In(05) vmx MainMem: Prefetch 1918 MB from checkpoint (491040 hot, 489491 locked, lazy = 0).
+2025-03-18T08:18:11.097Z In(05) vmx   restoring MStats
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'vm.powerOnTimeStamp.dataSize' [0, 0] not found.
+2025-03-18T08:18:11.097Z Wa(03) vmx MStat: sizeof(MStatData) changed. Can't restore vm.powerOnTimeStamp
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'vm.suspendTime.dataSize' [0, 0] not found.
+2025-03-18T08:18:11.097Z Wa(03) vmx MStat: sizeof(MStatData) changed. Can't restore vm.suspendTime
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'vm.uptime.dataSize' [0, 0] not found.
+2025-03-18T08:18:11.097Z Wa(03) vmx MStat: sizeof(MStatData) changed. Can't restore vm.uptime
+2025-03-18T08:18:11.097Z In(05) vmx   restoring Snapshot
+2025-03-18T08:18:11.097Z In(05) vmx   restoring pic
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Block item 'IRQToPICLine' [-1, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'num_pics' [-1, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ICW1' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ICW2' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ICW3' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ICW4' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'OCW2' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'OCW3' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'IRR' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'IMR' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ISR' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'ELCR' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'INT_line' [0, -1] not found.
+2025-03-18T08:18:11.097Z In(05) vmx DUMPER: Item 'topIRQ' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'nextInitWord' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'autoRotate' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ICW1' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ICW2' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ICW3' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ICW4' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'OCW2' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'OCW3' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'IRR' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'IMR' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ISR' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ELCR' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'INT_line' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'topIRQ' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'nextInitWord' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'autoRotate' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'IOAPIC_lineState' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring scsi0:0
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'generation' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DISK:Not verifying the contentID of disk 'scsi0:0'
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'isVirtualSSD' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'numActiveAsyncOps' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'delayQueued' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring sata0:1
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'numActiveAsyncOps' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'delayQueued' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'changeState' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'locked' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'ejectReqPending' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring FeatureCompat
+2025-03-18T08:18:11.098Z In(05) vmx   restoring TimeTracker
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'apparentTime' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'apparentHz' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'busMultiplier' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'apicBusHz' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'apparentTimeIgnoresInterrupts' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'linuxGTCRemaining' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'realNS' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx TimeTracker host to guest rate conversion 861548652 @ 2208004000Hz -> 0 @ 2208004000Hz
+2025-03-18T08:18:11.098Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -861548652
+2025-03-18T08:18:11.098Z In(05) vmx Disabling TSC scaling since host does not support it.
+2025-03-18T08:18:11.098Z In(05) vmx TSC offsetting enabled.
+2025-03-18T08:18:11.098Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2025-03-18T08:18:11.098Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:available' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:enabled' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:guestPA' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:counter' [0, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:enabled' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:guestPA' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:counter' [1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:enabled' [2, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:guestPA' [2, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'stealclock:counter' [2, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring Backdoor
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'vmkEntryPoint' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'firmwareInitIssued' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'pciHoleLocked' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring PCI
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'confAddrReg' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring ExtCfgDevice
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'indexReg' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'baseRegIO' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'baseRegMMIO' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'locked' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx   restoring Cs440bx
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'base10' [-1, -1] not found.
+2025-03-18T08:18:11.098Z In(05) vmx DUMPER: Item 'pam' [0, -1] not found.
+2025-03-18T08:18:11.098Z Cr(01) vmx PANIC: VERIFY bora\devices\misc\cs440bx.c:1077
+2025-03-18T08:18:11.098Z In(05) vmx CoreDump_CoreDump: faking exception to get context
+2025-03-18T08:18:11.099Z In(05) vmx CoreDump: Minidump file D:\smester 6\vmware-vmx.dmp exists. Rotating ...
+2025-03-18T08:18:11.099Z In(05) vmx CoreDump: Current max dump count is 5.
+2025-03-18T08:18:11.099Z Wa(03) vmx CoreDump: Writing minidump to D:\smester 6\vmware-vmx.dmp
+2025-03-18T08:18:11.172Z In(05) vmx CoreDump: including module base 0x0x7ff721760000 size 0x0x01c40000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x01409da8 timestamp 0x6630c899
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe
+2025-03-18T08:18:11.173Z In(05) vmx   file version 17.5.2.59081
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7970000 size 0x0x00217000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x002234f0 timestamp 0xf9f266e7
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\ntdll.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7330000 size 0x0x000c4000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000d681c timestamp 0xa9f358b9
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\kernel32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3958
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d4f40000 size 0x0x003b7000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x003caf57 timestamp 0x0cf64c6a
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\KERNELBASE.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d5300000 size 0x0x00111000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00117e0c timestamp 0x10c46e71
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\ucrtbase.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3593
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d5840000 size 0x0x001af000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x001b5034 timestamp 0x091a4359
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\user32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d5420000 size 0x0x00026000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000293ea timestamp 0xd2bc1db7
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\win32u.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7840000 size 0x0x00029000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00039b33 timestamp 0x533dc7aa
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\gdi32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4036
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9b7940000 size 0x0x0001e000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00027fe2 timestamp 0x119a1ae6
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\VCRUNTIME140.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 14.40.33810.0
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d4cb0000 size 0x0x00118000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00123020 timestamp 0x9a9c478b
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\gdi32full.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d54c0000 size 0x0x0009a000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0009ce46 timestamp 0x8e0806c9
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\msvcp_win.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3374
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d6f40000 size 0x0x001a5000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x001aa4d7 timestamp 0xbb3c365d
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\ole32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3958
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d5a10000 size 0x0x0038e000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0039827b timestamp 0x08f46ddb
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\combase.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7400000 size 0x0x00114000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00122ca9 timestamp 0xf44e91b8
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\rpcrt4.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7520000 size 0x0x000b2000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000c3d92 timestamp 0x02828590
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\advapi32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d5da0000 size 0x0x000a7000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000b47d5 timestamp 0x657b2709
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\msvcrt.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 7.0.22621.2506
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7880000 size 0x0x000a8000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000b94a1 timestamp 0x7c5da276
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\sechost.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d4c80000 size 0x0x00028000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000381e2 timestamp 0x5a31de46
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\bcrypt.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d60f0000 size 0x0x00869000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x008815dd timestamp 0x5ec76f6d
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\shell32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d6960000 size 0x0x00474000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0047f710 timestamp 0xa28394ab
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\setupapi.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d7250000 size 0x0x00071000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00076835 timestamp 0xe911ea68
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\ws2_32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d4880000 size 0x0x0004e000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0005f720 timestamp 0x0b33d799
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\cfgmgr32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d6e00000 size 0x0x000d7000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000da850 timestamp 0xb0695f14
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\oleaut32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d4dd0000 size 0x0x00166000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0016e63b timestamp 0x05f19029
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\crypt32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4169
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9cc7c0000 size 0x0x00034000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000411d0 timestamp 0xd3c92ffd
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\winmm.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9cd3a0000 size 0x0x000a2000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000a5d0b timestamp 0x85222e5b
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\dsound.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.3527
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9ca760000 size 0x0x00042000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0004edc5 timestamp 0xe47f0e30
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\WinSCard.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9cdc40000 size 0x0x00136000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x001422be timestamp 0x9ae57931
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\winhttp.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9d3a90000 size 0x0x00014000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x0001d19a timestamp 0x1f99e550
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Windows\System32\wtsapi32.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9cd380000 size 0x0x0001a000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x00027bb2 timestamp 0x64800fed
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Program Files (x86)\VMware\VMware Workstation\x64\zlib1.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 1.2.13.0
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9bc820000 size 0x0x000c3000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x000cd21e timestamp 0x64cd5387
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Program Files (x86)\VMware\VMware Workstation\x64\libssl-3-x64.dll
+2025-03-18T08:18:11.173Z In(05) vmx   file version 3.0.10.0
+2025-03-18T08:18:11.173Z In(05) vmx CoreDump: including module base 0x0x7ff9830d0000 size 0x0x004f3000
+2025-03-18T08:18:11.173Z In(05) vmx   checksum 0x004faff6 timestamp 0x64cd525c
+2025-03-18T08:18:11.173Z In(05) vmx   image file C:\Program Files (x86)\VMware\VMware Workstation\x64\libcrypto-3-x64.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 3.0.10.0
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9cd620000 size 0x0x0000c000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0001aa4f timestamp 0xc14c413b
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\VCRUNTIME140_1.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 14.40.33810.0
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9b2320000 size 0x0x0008d000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00092c4a timestamp 0xb3df2f63
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\msvcp140.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 14.40.33810.0
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d4b50000 size 0x0x0004d000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0005e1ad timestamp 0x8ba7fc09
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\powrprof.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3958
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9a71f0000 size 0x0x000b1000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000bb4f0 timestamp 0xe99ddb43
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\ResampleDmo.DLL
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9ccd30000 size 0x0x00029000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0002d542 timestamp 0x93373709
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\winmmbase.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff99eb10000 size 0x0x0000b000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00011325 timestamp 0xf020f5b6
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\msdmo.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d5800000 size 0x0x00031000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00035dd0 timestamp 0x25b6f46e
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\imm32.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3374
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d4b30000 size 0x0x00013000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00019bc1 timestamp 0x84929b4c
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\umpdc.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d3cd0000 size 0x0x00018000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00024007 timestamp 0x998d6161
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\kernel.appcore.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3958
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d5620000 size 0x0x0007b000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00081cb1 timestamp 0x23a2a800
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\bcryptPrimitives.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9cebc0000 size 0x0x000b1000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000b65c3 timestamp 0x05a43259
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\uxtheme.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d2bf0000 size 0x0x008ff000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x009184c9 timestamp 0xed9b7d82
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\windows.storage.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d2ab0000 size 0x0x0013f000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0014e202 timestamp 0x6ae12fbc
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\WinTypes.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3810
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d7740000 size 0x0x000f9000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00107220 timestamp 0xdb8f8552
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\SHCore.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d72d0000 size 0x0x0005e000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0006f6b0 timestamp 0x672b2c78
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\shlwapi.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d4bb0000 size 0x0x00027000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0002e68a timestamp 0x358d217a
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\profapi.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4111
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d3de0000 size 0x0x00034000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0003ad64 timestamp 0xf264e279
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\ntmarta.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d3f30000 size 0x0x00043000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0004fd04 timestamp 0x7bf67163
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\sspicli.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3810
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d4140000 size 0x0x00069000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00076453 timestamp 0x22162918
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\mswsock.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d37c0000 size 0x0x00102000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00104cb7 timestamp 0x97030a81
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\dnsapi.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d3750000 size 0x0x0002d000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0003bc1d timestamp 0x6e557212
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\IPHLPAPI.DLL
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d6df0000 size 0x0x00009000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0001132f timestamp 0x5a7e5602
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\nsi.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9c7a70000 size 0x0x0000a000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0001872f timestamp 0x9a6e599a
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\rasadhlp.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9cc8c0000 size 0x0x00047000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x00054a4a timestamp 0xb628bb33
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\WinHvPlatform.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9b20f0000 size 0x0x0003e000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0004d51e timestamp 0xd488ddf8
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\vid.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d4850000 size 0x0x0002c000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0003103b timestamp 0x53f5e575
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\devobj.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9d7600000 size 0x0x000b0000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000b82b2 timestamp 0x8bfd4b9e
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\clbcatq.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 2001.12.10941.16384
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9bd240000 size 0x0x00010000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x0001a814 timestamp 0xab0380b7
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\wbem\wbemprox.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9bd1c0000 size 0x0x00080000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000809b7 timestamp 0x3b66e0f9
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\wbemcomn.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9b95e0000 size 0x0x00014000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000212f9 timestamp 0x705ce899
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\wbem\wbemsvc.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9b2bd0000 size 0x0x000f8000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000fa052 timestamp 0x677b4329
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\wbem\fastprox.dll
+2025-03-18T08:18:11.174Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.174Z In(05) vmx CoreDump: including module base 0x0x7ff9b1670000 size 0x0x0001d000
+2025-03-18T08:18:11.174Z In(05) vmx   checksum 0x000227d1 timestamp 0x1fb05bef
+2025-03-18T08:18:11.174Z In(05) vmx   image file C:\Windows\System32\amsi.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3527
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d4230000 size 0x0x00028000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00031c1c timestamp 0x29678987
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\userenv.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3527
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9b1500000 size 0x0x00081000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00088523 timestamp 0xbe11da13
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpOAV.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 4.18.25010.11
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9cac00000 size 0x0x0000a000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0001a2f1 timestamp 0x90a1b58a
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\version.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d4390000 size 0x0x0001b000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0002c6df timestamp 0xebaf0d75
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\cryptsp.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d3c30000 size 0x0x00035000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0003dc07 timestamp 0xd870f249
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\rsaenh.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d43b0000 size 0x0x0000c000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00012435 timestamp 0xf6072bfa
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\CRYPTBASE.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d56a0000 size 0x0x00008000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0000addd timestamp 0x906b75a6
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\psapi.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9cf570000 size 0x0x00232000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00226c54 timestamp 0x0209d29e
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\dbghelp.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3593
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d70f0000 size 0x0x00160000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0016f68e timestamp 0x25e25d22
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\msctf.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.4317
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d5450000 size 0x0x0006c000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00071752 timestamp 0xb0be4102
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\wintrust.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.4249
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d43f0000 size 0x0x00012000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x000153a0 timestamp 0x03d0f351
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\msasn1.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.2506
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9d4900000 size 0x0x00066000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00071852 timestamp 0x1911ca7e
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\winsta.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9bca40000 size 0x0x00067000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0006f16f timestamp 0x348765bb
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\SensorsApi.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3527
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9cd9f0000 size 0x0x0002e000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0003716c timestamp 0xe3ceb7cb
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\SensorsUtilsV2.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9bc9d0000 size 0x0x00041000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0004905b timestamp 0x687b30ae
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\SensorsNativeApi.V2.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9cd8c0000 size 0x0x00101000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0010d538 timestamp 0xeaf209ea
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\propsys.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 7.0.22621.4249
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9bc8f0000 size 0x0x00031000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x000360e2 timestamp 0x12138395
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\PortableDeviceTypes.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9bc560000 size 0x0x0003f000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x0004da14 timestamp 0xecfc8d0c
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\deviceaccess.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.3672
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: including module base 0x0x7ff9b1690000 size 0x0x00032000
+2025-03-18T08:18:11.175Z In(05) vmx   checksum 0x00037576 timestamp 0x1329ca8f
+2025-03-18T08:18:11.175Z In(05) vmx   image file C:\Windows\System32\dbgcore.dll
+2025-03-18T08:18:11.175Z In(05) vmx   file version 10.0.22621.1
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 5480
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 4960
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 4792
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 4728
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 11356
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 12088
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 8224
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 2940
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 2976
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 2968
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 8560
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 9136
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 7456
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 464
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 12228
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 11720
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 10884
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 3476
+2025-03-18T08:18:11.175Z In(05) vmx CoreDump: Including thread 3576
+2025-03-18T08:18:11.220Z In(05) vmx Backtrace:
+2025-03-18T08:18:11.221Z In(05) vmx backtrace[00] frame 0xe536afef60 IP 0x7ff721e1c15e params 0x7ff9d54015d2 0xe536afe6a8 0x7ff722352258 0x7ff721f4e823 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x00000000006bb15e] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x6bc15e
+2025-03-18T08:18:11.221Z In(05) vmx backtrace[01] frame 0xe536afefd0 IP 0x7ff721e1ba0d params 0 0x7ff722171c80 0xe536afeb48 0xe536afeb70 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x00000000006baa0d] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x6bba0d
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[02] frame 0xe536aff400 IP 0x7ff7217f761f params 0x7ff7220ab940 0x7ff722171f58 0x435 0x4000000000 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x000000000009661f] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x9761f
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[03] frame 0xe536aff460 IP 0x7ff721a1d7d0 params 0x1f6ff7822d0 0x1f6ff7823b0 0x1f6ff767b70 0x7ff721dd410b [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x00000000002bc7d0] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x2bd7d0
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[04] frame 0xe536aff4e0 IP 0x7ff721a1c946 params 0x1f6ff71c960 0x14 0x1f6ff71c960 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x00000000002bb946] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x2bc946
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[05] frame 0xe536affa40 IP 0x7ff7217fce89 params 0x1e 0x1f6ff767b70 0xffffffffffffffff 0xa7b17dc [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x000000000009be89] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x9ce89
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[06] frame 0xe536affa80 IP 0x7ff7217ffaa6 params 0x1f6ff63df00 0xffffffffffffffff 0xa7b1799 0x7ff7220db420 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x000000000009eaa6] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x9faa6
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[07] frame 0xe536affad0 IP 0x7ff721827274 params 0 0x1f6ff63df30 0 0x1 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x00000000000c6274] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0xc7274
+2025-03-18T08:18:11.222Z In(05) vmx backtrace[08] frame 0xe536affb10 IP 0x7ff7217f838a params 0x1f6ff628920 0x2 0 0x1f6ff62e050 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x000000000009738a] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x9838a
+2025-03-18T08:18:11.223Z In(05) vmx backtrace[09] frame 0xe536affb90 IP 0x7ff7217f7d5c params 0x2 0x1f6ff628920 0 0xa [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x0000000000096d5c] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x97d5c
+2025-03-18T08:18:11.223Z In(05) vmx backtrace[10] frame 0xe536affbf0 IP 0x7ff7217f6b21 params 0 0 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x0000000000095b21] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x96b21
+2025-03-18T08:18:11.223Z In(05) vmx backtrace[11] frame 0xe536affc40 IP 0x7ff7217f749b params 0 0x7ff7217779c9 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x000000000009649b] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x9749b
+2025-03-18T08:18:11.223Z In(05) vmx backtrace[12] frame 0xe536affc80 IP 0x7ff721777952 params 0 0 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe base 0x00007ff721760000 0x0001:0x0000000000016952] <C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe>+0x17952
+2025-03-18T08:18:11.226Z In(05) vmx backtrace[13] frame 0xe536affc88 IP 0x7ff9d734257d params 0 0 0 0 [C:\Windows\System32\KERNEL32.DLL base 0x00007ff9d7330000 0x0001:0x000000000001157d] BaseThreadInitThunk
+2025-03-18T08:18:11.230Z In(05) vmx backtrace[14] frame 0xe536affcb8 IP 0x7ff9d79caf08 params 0 0 0 0 [C:\Windows\SYSTEM32\ntdll.dll base 0x00007ff9d7970000 0x0001:0x0000000000059f08] RtlUserThreadStart
+2025-03-18T08:18:11.230Z In(05) vmx Printing loaded objects
+2025-03-18T08:18:11.231Z In(05) vmx [0x0021760000-0x00233a0000): C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7970000-0x00d7b87000): C:\Windows\SYSTEM32\ntdll.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7330000-0x00d73f4000): C:\Windows\System32\KERNEL32.DLL
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d4f40000-0x00d52f7000): C:\Windows\System32\KERNELBASE.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d5300000-0x00d5411000): C:\Windows\System32\ucrtbase.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d5840000-0x00d59ef000): C:\Windows\System32\USER32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d5420000-0x00d5446000): C:\Windows\System32\win32u.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7840000-0x00d7869000): C:\Windows\System32\GDI32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00b7940000-0x00b795e000): C:\Windows\SYSTEM32\VCRUNTIME140.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d4cb0000-0x00d4dc8000): C:\Windows\System32\gdi32full.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d54c0000-0x00d555a000): C:\Windows\System32\msvcp_win.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d6f40000-0x00d70e5000): C:\Windows\System32\ole32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d5a10000-0x00d5d9e000): C:\Windows\System32\combase.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7400000-0x00d7514000): C:\Windows\System32\RPCRT4.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7520000-0x00d75d2000): C:\Windows\System32\ADVAPI32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d5da0000-0x00d5e47000): C:\Windows\System32\msvcrt.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7880000-0x00d7928000): C:\Windows\System32\sechost.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d4c80000-0x00d4ca8000): C:\Windows\System32\bcrypt.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d60f0000-0x00d6959000): C:\Windows\System32\SHELL32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d6960000-0x00d6dd4000): C:\Windows\System32\SETUPAPI.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d7250000-0x00d72c1000): C:\Windows\System32\WS2_32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d4880000-0x00d48ce000): C:\Windows\SYSTEM32\CFGMGR32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d6e00000-0x00d6ed7000): C:\Windows\System32\OLEAUT32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d4dd0000-0x00d4f36000): C:\Windows\System32\CRYPT32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00cc7c0000-0x00cc7f4000): C:\Windows\SYSTEM32\WINMM.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00cd3a0000-0x00cd442000): C:\Windows\SYSTEM32\DSOUND.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00ca760000-0x00ca7a2000): C:\Windows\SYSTEM32\WinSCard.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00cdc40000-0x00cdd76000): C:\Windows\SYSTEM32\WINHTTP.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00d3a90000-0x00d3aa4000): C:\Windows\SYSTEM32\WTSAPI32.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00cd380000-0x00cd39a000): C:\Program Files (x86)\VMware\VMware Workstation\x64\zlib1.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00bc820000-0x00bc8e3000): C:\Program Files (x86)\VMware\VMware Workstation\x64\libssl-3-x64.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00830d0000-0x00835c3000): C:\Program Files (x86)\VMware\VMware Workstation\x64\libcrypto-3-x64.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00cd620000-0x00cd62c000): C:\Windows\SYSTEM32\VCRUNTIME140_1.dll
+2025-03-18T08:18:11.231Z In(05) vmx [0x00b2320000-0x00b23ad000): C:\Windows\SYSTEM32\MSVCP140.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d4b50000-0x00d4b9d000): C:\Windows\SYSTEM32\powrprof.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00a71f0000-0x00a72a1000): C:\Windows\SYSTEM32\ResampleDmo.DLL
+2025-03-18T08:18:11.232Z In(05) vmx [0x00ccd30000-0x00ccd59000): C:\Windows\SYSTEM32\winmmbase.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x009eb10000-0x009eb1b000): C:\Windows\SYSTEM32\msdmo.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d5800000-0x00d5831000): C:\Windows\System32\IMM32.DLL
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d4b30000-0x00d4b43000): C:\Windows\SYSTEM32\UMPDC.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d3cd0000-0x00d3ce8000): C:\Windows\SYSTEM32\kernel.appcore.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d5620000-0x00d569b000): C:\Windows\System32\bcryptPrimitives.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00cebc0000-0x00cec71000): C:\Windows\system32\uxtheme.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d2bf0000-0x00d34ef000): C:\Windows\SYSTEM32\windows.storage.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d2ab0000-0x00d2bef000): C:\Windows\SYSTEM32\wintypes.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d7740000-0x00d7839000): C:\Windows\System32\SHCORE.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d72d0000-0x00d732e000): C:\Windows\System32\shlwapi.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d4bb0000-0x00d4bd7000): C:\Windows\SYSTEM32\profapi.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d3de0000-0x00d3e14000): C:\Windows\SYSTEM32\ntmarta.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d3f30000-0x00d3f73000): C:\Windows\SYSTEM32\SspiCli.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d4140000-0x00d41a9000): C:\Windows\system32\mswsock.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d37c0000-0x00d38c2000): C:\Windows\SYSTEM32\DNSAPI.dll
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d3750000-0x00d377d000): C:\Windows\SYSTEM32\IPHLPAPI.DLL
+2025-03-18T08:18:11.232Z In(05) vmx [0x00d6df0000-0x00d6df9000): C:\Windows\System32\NSI.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00c7a70000-0x00c7a7a000): C:\Windows\System32\rasadhlp.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00cc8c0000-0x00cc907000): C:\Windows\SYSTEM32\WinHvPlatform.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00b20f0000-0x00b212e000): C:\Windows\SYSTEM32\vid.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d4850000-0x00d487c000): C:\Windows\SYSTEM32\DEVOBJ.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d7600000-0x00d76b0000): C:\Windows\System32\clbcatq.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00bd240000-0x00bd250000): C:\Windows\system32\wbem\wbemprox.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00bd1c0000-0x00bd240000): C:\Windows\SYSTEM32\wbemcomn.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00b95e0000-0x00b95f4000): C:\Windows\system32\wbem\wbemsvc.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00b2bd0000-0x00b2cc8000): C:\Windows\system32\wbem\fastprox.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00b1670000-0x00b168d000): C:\Windows\SYSTEM32\amsi.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d4230000-0x00d4258000): C:\Windows\SYSTEM32\USERENV.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00b1500000-0x00b1581000): C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpOav.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00cac00000-0x00cac0a000): C:\Windows\system32\version.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d4390000-0x00d43ab000): C:\Windows\SYSTEM32\CRYPTSP.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d3c30000-0x00d3c65000): C:\Windows\system32\rsaenh.dll
+2025-03-18T08:18:11.233Z In(05) vmx [0x00d43b0000-0x00d43bc000): C:\Windows\SYSTEM32\CRYPTBASE.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00d56a0000-0x00d56a8000): C:\Windows\System32\psapi.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00cf570000-0x00cf7a2000): C:\Windows\SYSTEM32\dbghelp.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00d70f0000-0x00d7250000): C:\Windows\System32\MSCTF.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00d5450000-0x00d54bc000): C:\Windows\System32\WINTRUST.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00d43f0000-0x00d4402000): C:\Windows\SYSTEM32\MSASN1.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00d4900000-0x00d4966000): C:\Windows\SYSTEM32\WINSTA.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00bca40000-0x00bcaa7000): C:\Windows\System32\SensorsApi.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00cd9f0000-0x00cda1e000): C:\Windows\System32\SensorsUtilsV2.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00bc9d0000-0x00bca11000): C:\Windows\System32\SensorsNativeApi.V2.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00cd8c0000-0x00cd9c1000): C:\Windows\System32\PROPSYS.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00bc8f0000-0x00bc921000): C:\Windows\System32\PortableDeviceTypes.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00bc560000-0x00bc59f000): C:\Windows\System32\deviceaccess.dll
+2025-03-18T08:18:11.234Z In(05) vmx [0x00b1690000-0x00b16c2000): C:\Windows\SYSTEM32\dbgcore.DLL
+2025-03-18T08:18:11.234Z In(05) vmx End printing loaded objects
+2025-03-18T08:18:11.234Z Wa(03) vmx Win32 object usage: GDI 0, USER 15
+2025-03-18T08:18:11.235Z In(05) vmx Panic: monitor not available, skipping monitor coredump.
+2025-03-18T08:18:11.235Z In(05) vmx Exiting
